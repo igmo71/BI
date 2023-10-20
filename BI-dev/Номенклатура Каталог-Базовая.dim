@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7871d60f-6cab-46ed-99dc-e03812871514" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Номенклатура Каталог</ID>
-  <Name>Номенклатура Каталог</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="114a09ba-41d8-4429-94b0-695e19057a87" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Номенклатура Каталог-Базовая</ID>
+  <Name>Номенклатура Каталог-Базовая</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2838" scrolltop="-6509" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10663" y="12462" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2242" scrolltop="-5702" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10213" y="16404" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-2838</Value>
+      <Value>-2242</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-6509</Value>
+      <Value>-5702</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -68,72 +68,65 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5eae5036-dad9-4778-8b50-a6384ec6a065">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="abbe9ece-c144-44f0-b7ec-eb67c988d0e7">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="aaa3c0db-4813-47f0-93e2-06de546fcbde">
+  <ErrorConfiguration dwd:design-time-name="292ca06f-c436-4e9f-a4c8-a59d642ed098">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="b3728b4a-4fd9-4ffc-aaff-e0035d3d1702">
+    <Attribute dwd:design-time-name="b665afe9-6b66-4449-b102-7976d328eba1">
       <ID>Ref Key</ID>
-      <Name>Список</Name>
+      <Name>Ref Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f2ff6b51-7886-41e1-964b-8019bcc8dd4e">
+        <KeyColumn dwd:design-time-name="d5504b4f-fa23-4b4c-87a7-df05d6198885">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c13840c-315d-4d93-911b-17a9fbab6f48">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="93f9a4e2-b510-4c40-9bc6-511667ecca60">
             <TableID>dbo_v_Номенклатура</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="138b6bdd-e1d4-48ef-b54f-75d394e5124f">
+      <NameColumn dwd:design-time-name="632d792b-6163-4dbd-a5c4-fa13416cfdbd">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c9da185c-d65c-4940-8463-0e91d4f447b6">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f019b5c0-5d43-44dd-8fba-45a3e7d5a46e">
           <TableID>dbo_v_Номенклатура</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="03e8cb55-c0f6-43ff-a6c1-75a3c8f1a540">
-          <AttributeID>Parent Key</AttributeID>
-          <Name>Каталог</Name>
+        <AttributeRelationship dwd:design-time-name="8005f3ae-fb26-40a6-9895-8ea6cb53a004">
+          <AttributeID>Parent Базовая Номенклатура Key</AttributeID>
+          <Name>Номенклатура Каталог-Базовая</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7bdc679f-e41b-4c8c-8035-5e65a49c51e6">
-      <ID>Parent Key</ID>
-      <Name>Каталог</Name>
+    <Attribute dwd:design-time-name="ec9adb45-4730-4cf0-a040-5088c50676df">
+      <ID>Parent Базовая Номенклатура Key</ID>
+      <Name>Номенклатура Каталог-Базовая</Name>
       <Usage>Parent</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ad921334-8c2b-45fe-aece-db7c228ddb76">
+        <KeyColumn dwd:design-time-name="c923330f-7c22-4fc1-b3ae-cfd8f617ee35">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4b9f4c2-5de1-4476-92f9-1c207a40bba3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="11d041b4-9e5f-46fe-91c2-50b804a945be">
             <TableID>dbo_v_Номенклатура</TableID>
-            <ColumnID>Parent_Key</ColumnID>
+            <ColumnID>Parent_БазоваяНоменклатура_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="0644dd29-38e4-4388-ae0d-94db6f828370">
-        <DataType>WChar</DataType>
-        <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="a7d95e27-7b6f-44d9-93b3-764bfb6f30df">
-          <TableID>dbo_v_Номенклатура</TableID>
-          <ColumnID>Description</ColumnID>
-        </Source>
-      </NameColumn>
+      <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
