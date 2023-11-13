@@ -17,6 +17,36 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.cube</Name>
+      <FullPath>Заказ Клиента.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента.partitions</Name>
+          <FullPath>Заказ Клиента.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Реализация Товаров Услуг.cube</Name>
+      <FullPath>Реализация Товаров Услуг.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Реализация Товаров Услуг.partitions</Name>
+          <FullPath>Реализация Товаров Услуг.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах.cube</Name>
+      <FullPath>Товары На Складах.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах.partitions</Name>
+          <FullPath>Товары На Складах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -54,6 +84,26 @@
     <ProjectItem>
       <Name>Хозяйственная Операция.dim</Name>
       <FullPath>Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура.dim</Name>
+      <FullPath>Номенклатура.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.dim</Name>
+      <FullPath>Заказ Клиента.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Причины Отмены Заказов Клиентов.dim</Name>
+      <FullPath>Причины Отмены Заказов Клиентов.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отменено.dim</Name>
+      <FullPath>Отменено.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Согласован.dim</Name>
+      <FullPath>Согласован.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9522be9f-9c1e-4604-819b-53b77d005212" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fe4ea593-ee5f-491d-a887-9ec3d88b6982" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>WH-dev</ID>
   <Name>WH-dev</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -10,7 +10,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
-      <Value>ВыручкаИСебестоимостьПродаж</Value>
+      <Value>ТоварыНаСкладах</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
@@ -344,7 +344,7 @@
                   </connector>
                 </ddscontrol>
               </dds>
-</DiagramLayout>
+            </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-13137</DiagramViewPortLeft>
@@ -352,6 +352,42 @@
             <DiagramBoundingLeft>-10371</DiagramBoundingLeft>
             <DiagramBoundingTop>-4044</DiagramBoundingTop>
             <DiagramZoom>70</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>Boolean</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="30" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="162" scrolltop="923" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="32676" y="18812" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Boolean" left="15000" top="9390" logicalid="29" controlid="20" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Boolean" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>162</DiagramViewPortLeft>
+            <DiagramViewPortTop>923</DiagramViewPortTop>
+            <DiagramBoundingLeft>15000</DiagramBoundingLeft>
+            <DiagramBoundingTop>9390</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
           </Diagram>
           <Diagram>
             <Name>Календарь</Name>
@@ -393,7 +429,7 @@
             <Name>ВыручкаИСебестоимостьПродаж</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="145" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="10432" scrolltop="-2469" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31062" y="18124" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="71" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="10432" scrolltop="-3164" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27861" y="18785" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -404,7 +440,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ОсновныеМенеджеры_РозничныеПодразделения" left="31111" top="7022" logicalid="129" controlid="69" masterid="0" hint1="0" hint2="0" width="8017" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ОсновныеМенеджеры_РозничныеПодразделения" left="31111" top="7022" logicalid="55" controlid="25" masterid="0" hint1="0" hint2="0" width="8017" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000511f000057070000" />
                   </control>
@@ -415,7 +451,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="14283" top="-3402" logicalid="130" controlid="70" masterid="0" hint1="0" hint2="0" width="3122" height="6084" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="14283" top="-3402" logicalid="56" controlid="26" masterid="0" hint1="0" hint2="0" width="3122" height="6084" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000320c0000c4170000" />
                   </control>
@@ -426,7 +462,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения" left="31127" top="-731" logicalid="131" controlid="71" masterid="0" hint1="0" hint2="0" width="6695" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения" left="31127" top="-731" logicalid="57" controlid="27" masterid="0" hint1="0" hint2="0" width="6695" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000271a00009b0f0000" />
                   </control>
@@ -437,7 +473,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" left="31863" top="10286" logicalid="132" controlid="72" masterid="0" hint1="0" hint2="0" width="9419" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" left="31863" top="10286" logicalid="58" controlid="28" masterid="0" hint1="0" hint2="0" width="9419" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000cb240000af050000" />
                   </control>
@@ -448,7 +484,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="13252" top="3239" logicalid="133" controlid="73" masterid="0" hint1="0" hint2="0" width="5212" height="6059" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="13252" top="3239" logicalid="59" controlid="29" masterid="0" hint1="0" hint2="0" width="5212" height="6059" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00005c140000ab170000" />
                   </control>
@@ -459,7 +495,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="13596" top="10391" logicalid="134" controlid="74" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="13596" top="10391" logicalid="60" controlid="30" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000810f000043110000" />
                   </control>
@@ -470,7 +506,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж" left="21412" top="-789" logicalid="135" controlid="75" masterid="0" hint1="0" hint2="0" width="5265" height="15239" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж" left="21412" top="-789" logicalid="61" controlid="31" masterid="0" hint1="0" hint2="0" width="5265" height="15239" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e000091140000873b0000" />
                   </control>
@@ -481,7 +517,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17105" top="-759" logicalid="136" controlid="76" masterid="0" hint1="0" hint2="0" width="4607" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17105" top="-759" logicalid="62" controlid="32" masterid="0" hint1="0" hint2="0" width="4607" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -494,14 +530,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="70" destid="75" sourceattachpoint="21" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="26" destid="31" sourceattachpoint="21" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="17405" y="-360" />
                     <point x="19408" y="-360" />
                     <point x="19408" y="-320" />
                     <point x="21412" y="-320" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18164" top="3119" logicalid="137" controlid="77" masterid="0" hint1="0" hint2="0" width="3548" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18164" top="3119" logicalid="63" controlid="33" masterid="0" hint1="0" hint2="0" width="3548" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -514,14 +550,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="73" destid="75" sourceattachpoint="19" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="29" destid="31" sourceattachpoint="19" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="18464" y="3518" />
                     <point x="19938" y="3518" />
                     <point x="19938" y="3530" />
                     <point x="21412" y="3530" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17265" top="10380" logicalid="138" controlid="78" masterid="0" hint1="0" hint2="0" width="4447" height="970" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="17265" top="10380" logicalid="64" controlid="34" masterid="0" hint1="0" hint2="0" width="4447" height="970" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -534,14 +570,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="74" destid="75" sourceattachpoint="15" destattachpoint="58" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="30" destid="31" sourceattachpoint="15" destattachpoint="58" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="17565" y="10950" />
                     <point x="19488" y="10950" />
                     <point x="19488" y="10680" />
                     <point x="21412" y="10680" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="-783" logicalid="139" controlid="79" masterid="0" hint1="0" hint2="0" width="5050" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="-783" logicalid="65" controlid="35" masterid="0" hint1="0" hint2="0" width="5050" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -554,14 +590,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="71" destid="75" sourceattachpoint="22" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="27" destid="31" sourceattachpoint="22" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="31127" y="-384" />
                     <point x="28902" y="-384" />
                     <point x="28902" y="-320" />
                     <point x="26677" y="-320" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="7012" logicalid="140" controlid="80" masterid="0" hint1="0" hint2="0" width="5034" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="7012" logicalid="66" controlid="36" masterid="0" hint1="0" hint2="0" width="5034" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -574,14 +610,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="69" destid="75" sourceattachpoint="30" destattachpoint="47" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="25" destid="31" sourceattachpoint="30" destattachpoint="47" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="31111" y="7411" />
                     <point x="28894" y="7411" />
                     <point x="28894" y="7380" />
                     <point x="26677" y="7380" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="10064" logicalid="141" controlid="81" masterid="0" hint1="0" hint2="0" width="5786" height="916" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="10064" logicalid="67" controlid="37" masterid="0" hint1="0" hint2="0" width="5786" height="916" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -594,14 +630,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="72" destid="75" sourceattachpoint="34" destattachpoint="59" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="28" destid="31" sourceattachpoint="34" destattachpoint="59" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="31863" y="10463" />
                     <point x="29270" y="10463" />
                     <point x="29270" y="10680" />
                     <point x="26677" y="10680" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" left="31228" top="3855" logicalid="143" controlid="83" masterid="0" hint1="0" hint2="0" width="9403" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" left="31228" top="3855" logicalid="68" controlid="38" masterid="0" hint1="0" hint2="0" width="9403" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000bb240000fe080000" />
                   </control>
@@ -612,7 +648,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="4057" logicalid="144" controlid="84" masterid="0" hint1="0" hint2="0" width="5151" height="873" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="26377" top="4057" logicalid="69" controlid="39" masterid="0" hint1="0" hint2="0" width="5151" height="873" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -625,7 +661,7 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="83" destid="75" sourceattachpoint="34" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="38" destid="31" sourceattachpoint="34" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="31228" y="4456" />
                     <point x="28953" y="4456" />
                     <point x="28953" y="4630" />
@@ -633,11 +669,11 @@
                   </connector>
                 </ddscontrol>
               </dds>
-</DiagramLayout>
+            </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>10432</DiagramViewPortLeft>
-            <DiagramViewPortTop>-2469</DiagramViewPortTop>
+            <DiagramViewPortTop>-3164</DiagramViewPortTop>
             <DiagramBoundingLeft>13252</DiagramBoundingLeft>
             <DiagramBoundingTop>-3402</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
@@ -691,7 +727,7 @@
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
               </dds>
-</DiagramLayout>
+            </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>6037</DiagramViewPortLeft>
@@ -740,7 +776,7 @@
             <Name>Номенклатура</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5887" scrolltop="-3420" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="30665" y="20823" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="35" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5887" scrolltop="-3420" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="33046" y="19844" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -751,9 +787,9 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="6323" top="2711" logicalid="8" controlid="1" masterid="0" hint1="0" hint2="0" width="5212" height="6084" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="6323" top="2711" logicalid="27" controlid="11" masterid="0" hint1="0" hint2="0" width="5212" height="6554" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000e00005c140000c4170000" />
+                    <ddsxmlobjectstreaminitwrapper binary="000e00005c1400009a190000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -762,7 +798,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВидыНоменклатуры" left="-974" top="-610" logicalid="9" controlid="2" masterid="0" hint1="0" hint2="0" width="4350" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВидыНоменклатуры" left="-974" top="-610" logicalid="28" controlid="12" masterid="0" hint1="0" hint2="0" width="4350" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000fe1000004d0c0000" />
                   </control>
@@ -773,7 +809,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ПодвидыНоменклатуры" left="-1408" top="3928" logicalid="10" controlid="3" masterid="0" hint1="0" hint2="0" width="4905" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ПодвидыНоменклатуры" left="-1408" top="3928" logicalid="29" controlid="13" masterid="0" hint1="0" hint2="0" width="4905" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000291300004d0c0000" />
                   </control>
@@ -784,7 +820,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3076" top="1665" logicalid="11" controlid="4" masterid="0" hint1="0" hint2="0" width="3547" height="1638" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3076" top="1665" logicalid="30" controlid="14" masterid="0" hint1="0" hint2="0" width="3547" height="1873" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -797,14 +833,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="23" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="11" sourceattachpoint="23" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="3376" y="2064" />
                     <point x="4849" y="2064" />
-                    <point x="4849" y="3003" />
-                    <point x="6323" y="3003" />
+                    <point x="4849" y="3238" />
+                    <point x="6323" y="3238" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3197" top="4003" logicalid="12" controlid="5" masterid="0" hint1="0" hint2="0" width="3426" height="1500" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3197" top="4003" logicalid="31" controlid="15" masterid="0" hint1="0" hint2="0" width="3426" height="1185" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -817,14 +853,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="19" destattachpoint="26" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="13" destid="11" sourceattachpoint="19" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="3497" y="4402" />
                     <point x="4910" y="4402" />
-                    <point x="4910" y="5203" />
-                    <point x="6323" y="5203" />
+                    <point x="4910" y="4888" />
+                    <point x="6323" y="4888" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_БазоваяНоменклатура" left="-1490" top="8435" logicalid="13" controlid="6" masterid="0" hint1="0" hint2="0" width="5146" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_БазоваяНоменклатура" left="-1490" top="8435" logicalid="32" controlid="16" masterid="0" hint1="0" hint2="0" width="5146" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e00001a1400004d0c0000" />
                   </control>
@@ -835,7 +871,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3356" top="8203" logicalid="14" controlid="7" masterid="0" hint1="0" hint2="0" width="3267" height="2206" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3356" top="7888" logicalid="33" controlid="17" masterid="0" hint1="0" hint2="0" width="3267" height="2521" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -848,11 +884,11 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="23" destattachpoint="38" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="16" destid="11" sourceattachpoint="23" destattachpoint="36" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="3656" y="10009" />
                     <point x="4886" y="10009" />
-                    <point x="4886" y="8503" />
-                    <point x="6323" y="8503" />
+                    <point x="4886" y="8188" />
+                    <point x="6323" y="8188" />
                   </connector>
                 </ddscontrol>
               </dds>
@@ -869,7 +905,7 @@
             <Name>Склады</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="87" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6806" scrolltop="4358" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27384" y="20823" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="362" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6806" scrolltop="4358" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29580" y="23363" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -880,7 +916,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="6212" top="12560" logicalid="86" controlid="45" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="6212" top="12560" logicalid="361" controlid="194" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000e0000810f000043110000" />
                   </control>
@@ -892,13 +928,617 @@
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
               </dds>
-            </DiagramLayout>
+</DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>-6806</DiagramViewPortLeft>
             <DiagramViewPortTop>4358</DiagramViewPortTop>
             <DiagramBoundingLeft>6212</DiagramBoundingLeft>
             <DiagramBoundingTop>12560</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>Заказ Клиента</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="180" scrolltop="1336" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30930" y="23363" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="5078" top="6045" logicalid="16" controlid="1" masterid="0" hint1="0" hint2="0" width="3122" height="6058" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000320c0000aa170000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Calendar" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="21350" top="5463" logicalid="17" controlid="2" masterid="0" hint1="0" hint2="0" width="5874" height="6562" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f2160000a2190000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Номенклатура" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" left="1852" top="14299" logicalid="18" controlid="3" masterid="0" hint1="0" hint2="0" width="9457" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f1240000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ЗаказКлиента_Товары" left="13155" top="6336" logicalid="19" controlid="4" masterid="0" hint1="0" hint2="0" width="5583" height="15873" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000cf150000013e0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_ЗаказКлиента_Товары" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18438" top="5595" logicalid="20" controlid="5" masterid="0" hint1="0" hint2="0" width="3212" height="2927" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_Номенклатура]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="22" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21350" y="5994" />
+                    <point x="20256" y="5994" />
+                    <point x="20256" y="8222" />
+                    <point x="18738" y="8222" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7900" top="6475" logicalid="21" controlid="6" masterid="0" hint1="0" hint2="0" width="5555" height="2047" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-Calendar]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="13" destattachpoint="24" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="8200" y="6874" />
+                    <point x="10439" y="6874" />
+                    <point x="10439" y="8222" />
+                    <point x="13155" y="8222" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11009" top="15051" logicalid="22" controlid="7" masterid="0" hint1="0" hint2="0" width="2446" height="1171" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="37" destattachpoint="52" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11309" y="15450" />
+                    <point x="12080" y="15450" />
+                    <point x="12080" y="15922" />
+                    <point x="13155" y="15922" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Boolean" left="21747" top="12604" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Boolean" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18438" top="13144" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="3609" height="1978" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-Boolean]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="4" sourceattachpoint="12" destattachpoint="49" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21747" y="13543" />
+                    <point x="19462" y="13543" />
+                    <point x="19462" y="14822" />
+                    <point x="18738" y="14822" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ПричиныОтменыЗаказовКлиентов" left="21948" top="15303" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="9720" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f8250000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_ПричиныОтменыЗаказовКлиентов" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18438" top="16055" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="3810" height="2367" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_ПричиныОтменыЗаказовКлиентов]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="4" sourceattachpoint="36" destattachpoint="61" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21948" y="16454" />
+                    <point x="20026" y="16454" />
+                    <point x="20026" y="18122" />
+                    <point x="18738" y="18122" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" left="2034" top="17856" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="9288" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000048240000af050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="11022" top="18184" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="2433" height="1338" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="4" sourceattachpoint="37" destattachpoint="64" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11322" y="18583" />
+                    <point x="12212" y="18583" />
+                    <point x="12212" y="19222" />
+                    <point x="13155" y="19222" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="22220" top="18349" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000810f000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Склады" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="18438" top="18509" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="4082" height="2113" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_Склады]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="4" sourceattachpoint="14" destattachpoint="69" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="22220" y="18908" />
+                    <point x="20955" y="18908" />
+                    <point x="20955" y="20322" />
+                    <point x="18738" y="20322" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>180</DiagramViewPortLeft>
+            <DiagramViewPortTop>1336</DiagramViewPortTop>
+            <DiagramBoundingLeft>1852</DiagramBoundingLeft>
+            <DiagramBoundingTop>5463</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>РеализацияТоваровУслуг</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="3611" scrolltop="819" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30930" y="23363" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_РеализацияТоваровУслуг_Товары" left="15266" top="3941" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="7514" height="16800" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e00005a1d0000a0410000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_РеализацияТоваровУслуг_Товары" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="8056" top="5476" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3122" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000320c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Calendar" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="10878" top="6477" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="4688" height="1764" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-Calendar]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="15" destattachpoint="40" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11178" y="6876" />
+                    <point x="12957" y="6876" />
+                    <point x="12957" y="7941" />
+                    <point x="15266" y="7941" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="26788" top="4365" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="5874" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f216000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Номенклатура" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="22480" top="5366" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="4608" height="2325" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-v_Номенклатура]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="26" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="26788" y="5765" />
+                    <point x="24837" y="5765" />
+                    <point x="24837" y="7391" />
+                    <point x="22780" y="7391" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" left="4247" top="12356" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="9350" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000086240000fe080000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13297" top="12591" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="2269" height="1316" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="37" destattachpoint="58" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13597" y="13507" />
+                    <point x="14312" y="13507" />
+                    <point x="14312" y="12891" />
+                    <point x="15266" y="12891" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" left="4192" top="17277" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="9314" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000062240000af050000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="13206" top="16991" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="2360" height="1413" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="1" sourceattachpoint="37" destattachpoint="74" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13506" y="18004" />
+                    <point x="14638" y="18004" />
+                    <point x="14638" y="17291" />
+                    <point x="15266" y="17291" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Boolean" left="26233" top="16007" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Boolean" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="22480" top="15891" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="4053" height="1455" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-Boolean]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="1" sourceattachpoint="12" destattachpoint="71" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="26233" y="16946" />
+                    <point x="24812" y="16946" />
+                    <point x="24812" y="16191" />
+                    <point x="22780" y="16191" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="26418" top="18970" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000810f000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Склады" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="22480" top="18641" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="4238" height="1838" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_РеализацияТоваровУслуг_Товары-v_Склады]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="1" sourceattachpoint="16" destattachpoint="81" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="26418" y="20079" />
+                    <point x="24043" y="20079" />
+                    <point x="24043" y="18941" />
+                    <point x="22780" y="18941" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>3611</DiagramViewPortLeft>
+            <DiagramViewPortTop>819</DiagramViewPortTop>
+            <DiagramBoundingLeft>4192</DiagramBoundingLeft>
+            <DiagramBoundingTop>3941</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>ТоварыНаСкладах</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="39" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="460" scrolltop="424" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="30930" y="23363" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ТоварыНаСкладах" left="10766" top="6906" logicalid="32" controlid="17" masterid="0" hint1="0" hint2="0" width="4551" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000c7110000ea120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_ТоварыНаСкладах" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="18161" top="4340" logicalid="33" controlid="18" masterid="0" hint1="0" hint2="0" width="5874" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f216000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Номенклатура" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Склады" left="18478" top="10293" logicalid="34" controlid="19" masterid="0" hint1="0" hint2="0" width="3969" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000810f000043110000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Склады" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="3979" top="7515" logicalid="35" controlid="20" masterid="0" hint1="0" hint2="0" width="3122" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000320c000088130000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Calendar" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6801" top="7966" logicalid="36" controlid="21" masterid="0" hint1="0" hint2="0" width="4265" height="1111" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ТоварыНаСкладах-Calendar]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="20" destid="17" sourceattachpoint="13" destattachpoint="20" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7101" y="8365" />
+                    <point x="8933" y="8365" />
+                    <point x="8933" y="8777" />
+                    <point x="10766" y="8777" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15017" top="6991" logicalid="37" controlid="22" masterid="0" hint1="0" hint2="0" width="3444" height="2086" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ТоварыНаСкладах-v_Номенклатура]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="18" destid="17" sourceattachpoint="32" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18161" y="7390" />
+                    <point x="16739" y="7390" />
+                    <point x="16739" y="8777" />
+                    <point x="15317" y="8777" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="15017" top="10677" logicalid="38" controlid="23" masterid="0" hint1="0" hint2="0" width="3761" height="1675" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_ТоварыНаСкладах-v_Склады]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="19" destid="17" sourceattachpoint="18" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18478" y="11952" />
+                    <point x="16792" y="11952" />
+                    <point x="16792" y="10977" />
+                    <point x="15317" y="10977" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>460</DiagramViewPortLeft>
+            <DiagramViewPortTop>424</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
           </Diagram>
         </Layouts>
@@ -925,6 +1565,13 @@
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СхемаПредприятия_Key" msprop:DbColumnName="СхемаПредприятия_Key" msprop:design-time-name="331d7423-8f26-4323-8bcd-6b805084f76b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1257,7 +1904,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msprop:design-time-name="9d227a7a-dc79-4f31-9b41-205774002218" msprop:FriendlyName="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:DbTableName="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры">
+            <xs:element name="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msprop:DbSchemaName="dbo" msprop:design-time-name="9d227a7a-dc79-4f31-9b41-205774002218" msprop:FriendlyName="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msprop:TableType="View" msprop:DbTableName="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="09e56183-c626-42ed-83de-0f9c03b7a7cf">
@@ -1284,7 +1931,7 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            <xs:element name="dbo_v_ВыручкаИСебестоимостьПродаж" msprop:DbTableName="v_ВыручкаИСебестоимостьПродаж" msprop:FriendlyName="v_ВыручкаИСебестоимостьПродаж" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:design-time-name="a59f9901-c753-4075-a141-87566aaf3f3e">
+            <xs:element name="dbo_v_ВыручкаИСебестоимостьПродаж" msprop:DbSchemaName="dbo" msprop:design-time-name="a59f9901-c753-4075-a141-87566aaf3f3e" msprop:FriendlyName="v_ВыручкаИСебестоимостьПродаж" msprop:TableType="View" msprop:DbTableName="v_ВыручкаИСебестоимостьПродаж">
               <xs:complexType>
                 <xs:sequence>
                   <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="6773167c-1f90-4e38-a7e4-1bd1b078b792">
@@ -1311,7 +1958,7 @@
                   <xs:element name="Recorder_Type" msdata:ReadOnly="true" msprop:FriendlyName="Recorder_Type" msprop:DbColumnName="Recorder_Type" msprop:design-time-name="dca070ce-ba56-40e9-bcbe-da8ff2dc5246" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="4000" />
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1347,7 +1994,7 @@
                   <xs:element name="ЗаказКлиента_Type" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_Type" msprop:DbColumnName="ЗаказКлиента_Type" msprop:design-time-name="aa163d5d-0bce-4256-bb13-cb91bef0e8fe" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="4000" />
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1361,7 +2008,7 @@
                   <xs:element name="ДокументДвижения_Type" msdata:ReadOnly="true" msprop:FriendlyName="ДокументДвижения_Type" msprop:DbColumnName="ДокументДвижения_Type" msprop:design-time-name="aaf577de-8b72-4626-8755-8fe5063656c3" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="4000" />
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1375,7 +2022,7 @@
                   <xs:element name="Склад_Type" msdata:ReadOnly="true" msprop:FriendlyName="Склад_Type" msprop:DbColumnName="Склад_Type" msprop:design-time-name="27ad7dfc-67e2-4a26-8a69-a5d81b369f81" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="4000" />
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -1448,6 +2095,392 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="dbo_v_ЗаказКлиента_Товары" msprop:DbSchemaName="dbo" msprop:design-time-name="754477ce-f833-428d-8bdb-452b585d4a1b" msprop:FriendlyName="v_ЗаказКлиента_Товары" msprop:TableType="View" msprop:DbTableName="v_ЗаказКлиента_Товары">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="ee5d2a67-9917-49fe-b808-b8bd40ce9cef">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Number" msprop:FriendlyName="Number" msprop:DbColumnName="Number" msprop:design-time-name="fcada813-9418-4241-88c0-0c462a4fe79b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="690c309c-b72e-488d-a940-ea53df946cfa">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СуммаДокумента" msprop:FriendlyName="СуммаДокумента" msprop:DbColumnName="СуммаДокумента" msprop:design-time-name="0f72a75c-7089-4511-a3c4-9981c9629f06" type="xs:double" />
+                  <xs:element name="Подразделение_Key" msprop:FriendlyName="Подразделение_Key" msprop:DbColumnName="Подразделение_Key" msprop:design-time-name="5356a33b-b8ac-4c29-b550-aa51eca53294" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Менеджер_Key" msprop:FriendlyName="Менеджер_Key" msprop:DbColumnName="Менеджер_Key" msprop:design-time-name="c5baa1b8-8cf9-4ec6-8f1e-22babd2e2340" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ЗаказКлиента_Склад_Key" msprop:FriendlyName="ЗаказКлиента_Склад_Key" msprop:DbColumnName="ЗаказКлиента_Склад_Key" msprop:design-time-name="9905aa48-5947-43e6-8848-aa104664fbc2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Партнер_Key" msprop:FriendlyName="Партнер_Key" msprop:DbColumnName="Партнер_Key" msprop:design-time-name="ece92b99-7ff5-4807-ace1-b91e069178ce" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ХозяйственнаяОперация" msprop:FriendlyName="ХозяйственнаяОперация" msprop:DbColumnName="ХозяйственнаяОперация" msprop:design-time-name="a05696de-5ddf-4c2e-9421-4256082fe10c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Статус" msprop:FriendlyName="Статус" msprop:DbColumnName="Статус" msprop:design-time-name="f6d1b9c5-f291-4c98-84fb-5eebb459b88b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="НалогообложениеНДС" msprop:FriendlyName="НалогообложениеНДС" msprop:DbColumnName="НалогообложениеНДС" msprop:design-time-name="fe51f78e-7f6b-4330-a409-1a0b2fc97b68" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ЦенаВключаетНДС" msprop:FriendlyName="ЦенаВключаетНДС" msprop:DbColumnName="ЦенаВключаетНДС" msprop:design-time-name="3af5b3ed-e5df-4fc6-acc6-4647c16f910c" type="xs:boolean" />
+                  <xs:element name="Согласован" msprop:FriendlyName="Согласован" msprop:DbColumnName="Согласован" msprop:design-time-name="d6efd84c-17e3-46de-815f-977cc8845108" type="xs:boolean" />
+                  <xs:element name="СкидкиРассчитаны" msprop:FriendlyName="СкидкиРассчитаны" msprop:DbColumnName="СкидкиРассчитаны" msprop:design-time-name="481e9167-35c4-4e28-8d19-cbd4b471801b" type="xs:boolean" />
+                  <xs:element name="LineNumber" msprop:FriendlyName="LineNumber" msprop:DbColumnName="LineNumber" msprop:design-time-name="11f7feca-440a-43f0-b9b3-3c6411a9c676" type="xs:int" />
+                  <xs:element name="Номенклатура_Key" msprop:FriendlyName="Номенклатура_Key" msprop:DbColumnName="Номенклатура_Key" msprop:design-time-name="ab95835a-57ea-41d8-af29-eee88c012544" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Упаковка_Key" msprop:FriendlyName="Упаковка_Key" msprop:DbColumnName="Упаковка_Key" msprop:design-time-name="1282d879-30fb-468f-b99d-2f463e972d43" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="КоличествоУпаковок" msprop:FriendlyName="КоличествоУпаковок" msprop:DbColumnName="КоличествоУпаковок" msprop:design-time-name="f112934d-5abd-4429-8146-0d642626de70" type="xs:double" minOccurs="0" />
+                  <xs:element name="Количество" msprop:FriendlyName="Количество" msprop:DbColumnName="Количество" msprop:design-time-name="c601c760-7f7f-43aa-8a7b-557a8348a1a6" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВидЦены_Key" msprop:FriendlyName="ВидЦены_Key" msprop:DbColumnName="ВидЦены_Key" msprop:design-time-name="ba3a0d44-2a19-411e-b3a0-8c5386fe88c2" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Цена" msprop:FriendlyName="Цена" msprop:DbColumnName="Цена" msprop:design-time-name="7cf5ec9b-e9d4-423b-a504-567c9db7c2be" type="xs:double" minOccurs="0" />
+                  <xs:element name="Сумма" msprop:FriendlyName="Сумма" msprop:DbColumnName="Сумма" msprop:design-time-name="4404be6f-caca-4070-9fb0-d9d0322b140c" type="xs:double" minOccurs="0" />
+                  <xs:element name="СтавкаНДС" msprop:FriendlyName="СтавкаНДС" msprop:DbColumnName="СтавкаНДС" msprop:design-time-name="49ea1fa7-b702-45a6-ac46-bf53a25ba7b5" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СуммаНДС" msprop:FriendlyName="СуммаНДС" msprop:DbColumnName="СуммаНДС" msprop:design-time-name="a140c525-df41-44ea-a099-2c69e0b398e1" type="xs:double" minOccurs="0" />
+                  <xs:element name="СуммаСНДС" msprop:FriendlyName="СуммаСНДС" msprop:DbColumnName="СуммаСНДС" msprop:design-time-name="9ed02d66-707b-42a3-8871-d64d22fb1f6f" type="xs:double" minOccurs="0" />
+                  <xs:element name="СуммаРучнойСкидки" msprop:FriendlyName="СуммаРучнойСкидки" msprop:DbColumnName="СуммаРучнойСкидки" msprop:design-time-name="93ab6cf9-01fc-45f1-8fca-cc15497766fe" type="xs:double" minOccurs="0" />
+                  <xs:element name="ПроцентРучнойСкидки" msprop:FriendlyName="ПроцентРучнойСкидки" msprop:DbColumnName="ПроцентРучнойСкидки" msprop:design-time-name="c38f1d84-c024-4dd6-b598-d7ecda53a123" type="xs:double" minOccurs="0" />
+                  <xs:element name="СуммаАвтоматическойСкидки" msprop:FriendlyName="СуммаАвтоматическойСкидки" msprop:DbColumnName="СуммаАвтоматическойСкидки" msprop:design-time-name="a45a1532-6af3-47f3-b24d-43da68ccf000" type="xs:double" minOccurs="0" />
+                  <xs:element name="ПроцентАвтоматическойСкидки" msprop:FriendlyName="ПроцентАвтоматическойСкидки" msprop:DbColumnName="ПроцентАвтоматическойСкидки" msprop:design-time-name="da9016e0-bc90-4aa9-bb67-90e3639eadc1" type="xs:double" minOccurs="0" />
+                  <xs:element name="Товары_Склад_Key" msprop:FriendlyName="Товары_Склад_Key" msprop:DbColumnName="Товары_Склад_Key" msprop:design-time-name="6a952124-dfa6-495e-980c-83705b8532ff" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Отменено" msprop:FriendlyName="Отменено" msprop:DbColumnName="Отменено" msprop:design-time-name="4b45f0e9-1386-4b18-861e-b3a9d52468f0" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="ПричинаОтмены_Key" msprop:FriendlyName="ПричинаОтмены_Key" msprop:DbColumnName="ПричинаОтмены_Key" msprop:design-time-name="13ab9321-c5fb-42e7-884a-3d16dadf0292" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="КодСтроки" msprop:FriendlyName="КодСтроки" msprop:DbColumnName="КодСтроки" msprop:design-time-name="cf52cf15-e2e1-4b24-bde5-1db4b7e1f692" type="xs:int" minOccurs="0" />
+                  <xs:element name="ДатаОтгрузки" msprop:FriendlyName="ДатаОтгрузки" msprop:DbColumnName="ДатаОтгрузки" msprop:design-time-name="ce864366-d034-4274-902c-7ab764e9ad12" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="27" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Id" msprop:DbColumnName="Id" msprop:design-time-name="01b25db1-51e4-4a17-a709-be7bda57f123">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="49" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Boolean" msprop:DbSchemaName="dbo" msprop:design-time-name="ed6fa726-d996-41e6-b0c0-052c5bc3bdb1" msprop:FriendlyName="Boolean" msprop:TableType="Table" msprop:DbTableName="Boolean">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="36d52a51-3a79-48cd-b20d-5cdde075a62c" type="xs:boolean" />
+                  <xs:element name="Value" msprop:FriendlyName="Value" msprop:DbColumnName="Value" msprop:design-time-name="6246485c-1577-479c-8753-4e1a1f5f4d02" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="3" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_v_ПричиныОтменыЗаказовКлиентов" msprop:DbSchemaName="dbo" msprop:design-time-name="b89b3168-c3ae-4c61-8930-662be7ce7e74" msprop:FriendlyName="v_ПричиныОтменыЗаказовКлиентов" msprop:TableType="View" msprop:DbTableName="v_ПричиныОтменыЗаказовКлиентов">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="2439689f-90b2-493d-99d9-be38fecdabfe">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DeletionMark" msdata:ReadOnly="true" msprop:FriendlyName="DeletionMark" msprop:DbColumnName="DeletionMark" msprop:design-time-name="f4b36278-69c7-4f97-a920-bcc6d4230b6a" type="xs:int" />
+                  <xs:element name="Description" msprop:FriendlyName="Description" msprop:DbColumnName="Description" msprop:design-time-name="08486053-8c10-4196-85b1-b794e8191c47" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_v_РеализацияТоваровУслуг_Товары" msprop:design-time-name="293513fd-dc84-452e-ba93-502df847a820" msprop:FriendlyName="v_РеализацияТоваровУслуг_Товары" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:DbTableName="v_РеализацияТоваровУслуг_Товары">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="cab51155-e2fb-448f-bceb-b177735d4253">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="0e3ae3fe-6b9a-4cf5-aae6-c15592722644" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Number" msprop:FriendlyName="Number" msprop:DbColumnName="Number" msprop:design-time-name="ab21285d-54d5-4d2a-9804-e06ae8d98881" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="ea17c85c-bb28-4255-971f-7fbb979a601f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СуммаДокумента" msprop:FriendlyName="СуммаДокумента" msprop:DbColumnName="СуммаДокумента" msprop:design-time-name="1569290d-feed-4876-b2b0-a33292c7a440" type="xs:double" minOccurs="0" />
+                  <xs:element name="Подразделение_Key" msprop:FriendlyName="Подразделение_Key" msprop:DbColumnName="Подразделение_Key" msprop:design-time-name="f334baa4-94ad-4a66-9c71-8aa2459dd893" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Менеджер_Key" msprop:FriendlyName="Менеджер_Key" msprop:DbColumnName="Менеджер_Key" msprop:design-time-name="b8ba3fd6-2846-4089-b62b-b62c59fcab55" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="РеализацияТоваровУслуг_Склад_Key" msprop:FriendlyName="РеализацияТоваровУслуг_Склад_Key" msprop:DbColumnName="РеализацияТоваровУслуг_Склад_Key" msprop:design-time-name="b75f4b47-55b8-481a-aa9a-c74d82c69868" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Партнер_Key" msprop:FriendlyName="Партнер_Key" msprop:DbColumnName="Партнер_Key" msprop:design-time-name="8c897994-ce00-4e59-b33b-1b8b043cae77" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="РеализацияТоваровУслуг_ЗаказКлиента" msprop:FriendlyName="РеализацияТоваровУслуг_ЗаказКлиента" msprop:DbColumnName="РеализацияТоваровУслуг_ЗаказКлиента" msprop:design-time-name="ad172ed4-bba9-4529-91fe-11df4f0fc917" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="РеализацияТоваровУслуг_ЗаказКлиента_Type" msprop:FriendlyName="РеализацияТоваровУслуг_ЗаказКлиента_Type" msprop:DbColumnName="РеализацияТоваровУслуг_ЗаказКлиента_Type" msprop:design-time-name="c17a9d9b-3e1a-4bf7-9a3f-c84c9ce8f29e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="РеализацияПоЗаказам" msprop:FriendlyName="РеализацияПоЗаказам" msprop:DbColumnName="РеализацияПоЗаказам" msprop:design-time-name="588e4187-c6c8-43d9-9ee0-76ca23b67ef2" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="ХозяйственнаяОперация" msprop:FriendlyName="ХозяйственнаяОперация" msprop:DbColumnName="ХозяйственнаяОперация" msprop:design-time-name="f1e1729f-f382-4b35-881d-eac185b0146f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Статус" msprop:FriendlyName="Статус" msprop:DbColumnName="Статус" msprop:design-time-name="925be6ef-368b-4229-b236-1b18f7df2c01" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="НалогообложениеНДС" msprop:FriendlyName="НалогообложениеНДС" msprop:DbColumnName="НалогообложениеНДС" msprop:design-time-name="6a44f4bf-9b95-42c4-854c-24edfb9f5182" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ЦенаВключаетНДС" msprop:FriendlyName="ЦенаВключаетНДС" msprop:DbColumnName="ЦенаВключаетНДС" msprop:design-time-name="ae93ab8b-97e5-4d0d-9dc7-7de8a58fd220" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="Согласован" msprop:FriendlyName="Согласован" msprop:DbColumnName="Согласован" msprop:design-time-name="107e1f16-1e80-4ede-a586-e694d463c6a4" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="СкидкиРассчитаны" msprop:FriendlyName="СкидкиРассчитаны" msprop:DbColumnName="СкидкиРассчитаны" msprop:design-time-name="627e910b-921c-4580-853e-d14c83576fbc" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="LineNumber" msprop:FriendlyName="LineNumber" msprop:DbColumnName="LineNumber" msprop:design-time-name="181af621-4384-4196-ad31-9fb86149c2ea" type="xs:int" />
+                  <xs:element name="Номенклатура_Key" msprop:FriendlyName="Номенклатура_Key" msprop:DbColumnName="Номенклатура_Key" msprop:design-time-name="1e88d3c7-d81a-412f-ab06-29dd17f9645e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Упаковка_Key" msprop:FriendlyName="Упаковка_Key" msprop:DbColumnName="Упаковка_Key" msprop:design-time-name="2432f261-dc8e-4638-a63c-5345d0433c5d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="КоличествоУпаковок" msprop:FriendlyName="КоличествоУпаковок" msprop:DbColumnName="КоличествоУпаковок" msprop:design-time-name="2fd9e45f-22b0-4dce-a0b0-270eb1998080" type="xs:double" />
+                  <xs:element name="Количество" msprop:FriendlyName="Количество" msprop:DbColumnName="Количество" msprop:design-time-name="114ee343-5bd2-45ad-b37e-d0c06527470f" type="xs:double" />
+                  <xs:element name="Цена" msprop:FriendlyName="Цена" msprop:DbColumnName="Цена" msprop:design-time-name="c697a624-a287-409f-b8c8-60aa64572a67" type="xs:double" />
+                  <xs:element name="Сумма" msprop:FriendlyName="Сумма" msprop:DbColumnName="Сумма" msprop:design-time-name="68f16ab7-895d-4704-a9e8-8cf4e539f7ba" type="xs:double" />
+                  <xs:element name="ВидЦены_Key" msprop:FriendlyName="ВидЦены_Key" msprop:DbColumnName="ВидЦены_Key" msprop:design-time-name="9cb83f7d-5dc1-4930-adda-1bb1d00f4f64" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СтавкаНДС" msprop:FriendlyName="СтавкаНДС" msprop:DbColumnName="СтавкаНДС" msprop:design-time-name="3ce92818-6598-42ab-add2-74f32a77e06f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="СуммаНДС" msprop:FriendlyName="СуммаНДС" msprop:DbColumnName="СуммаНДС" msprop:design-time-name="d66e0c3c-a3c5-4c52-98be-4b61bed92a2b" type="xs:double" />
+                  <xs:element name="СуммаСНДС" msprop:FriendlyName="СуммаСНДС" msprop:DbColumnName="СуммаСНДС" msprop:design-time-name="5da2e986-b35d-434a-add0-a4b52c0e1566" type="xs:double" />
+                  <xs:element name="СуммаРучнойСкидки" msprop:FriendlyName="СуммаРучнойСкидки" msprop:DbColumnName="СуммаРучнойСкидки" msprop:design-time-name="854529f5-e835-4ad0-9c1d-d5f55b7b215d" type="xs:double" />
+                  <xs:element name="ПроцентРучнойСкидки" msprop:FriendlyName="ПроцентРучнойСкидки" msprop:DbColumnName="ПроцентРучнойСкидки" msprop:design-time-name="b4321a4f-e5e8-479e-9711-baae9eaca223" type="xs:double" />
+                  <xs:element name="СуммаАвтоматическойСкидки" msprop:FriendlyName="СуммаАвтоматическойСкидки" msprop:DbColumnName="СуммаАвтоматическойСкидки" msprop:design-time-name="f69663c6-7553-48f2-ac23-eaa9774421f7" type="xs:double" />
+                  <xs:element name="ПроцентАвтоматическойСкидки" msprop:FriendlyName="ПроцентАвтоматическойСкидки" msprop:DbColumnName="ПроцентАвтоматическойСкидки" msprop:design-time-name="0659f7f7-67da-4962-b874-ea835946bf4d" type="xs:double" />
+                  <xs:element name="Товары_Склад_Key" msprop:FriendlyName="Товары_Склад_Key" msprop:DbColumnName="Товары_Склад_Key" msprop:design-time-name="ee59c7d3-b7ef-47b4-b1f9-477457feddf9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Товары_ЗаказКлиента" msprop:FriendlyName="Товары_ЗаказКлиента" msprop:DbColumnName="Товары_ЗаказКлиента" msprop:design-time-name="4b8e019f-7802-48ad-b8fd-c9c603b64710" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Товары_ЗаказКлиента_Type" msprop:FriendlyName="Товары_ЗаказКлиента_Type" msprop:DbColumnName="Товары_ЗаказКлиента_Type" msprop:design-time-name="71320e59-8388-4759-a4a5-6b5bec35b253" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="КодСтроки" msprop:FriendlyName="КодСтроки" msprop:DbColumnName="КодСтроки" msprop:design-time-name="ddcbafba-a27e-4630-a512-ff85159d6842" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_v_ТоварыНаСкладах" msprop:DbTableName="v_ТоварыНаСкладах" msprop:FriendlyName="v_ТоварыНаСкладах" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:design-time-name="b8e6feeb-1a69-40bc-baf9-e8de0c8cdf32">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="be1b7917-a6f7-4202-9d9f-74af18a961db">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Date" msprop:FriendlyName="Date" msprop:DbColumnName="Date" msprop:design-time-name="91d86e68-5d0f-4cba-9ce1-4ce6444ae367">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Номенклатура_Key" msprop:FriendlyName="Номенклатура_Key" msprop:DbColumnName="Номенклатура_Key" msprop:design-time-name="312764bf-c569-49c2-a56e-742e4131db9c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Склад_Key" msprop:FriendlyName="Склад_Key" msprop:DbColumnName="Склад_Key" msprop:design-time-name="38ade891-bca2-4e4e-b53f-13db4472a96e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ВНаличииOpeningBalance" msprop:FriendlyName="ВНаличииOpeningBalance" msprop:DbColumnName="ВНаличииOpeningBalance" msprop:design-time-name="ffd5c973-f844-4877-8009-94929342082a" type="xs:double" />
+                  <xs:element name="ВНаличииTurnover" msprop:FriendlyName="ВНаличииTurnover" msprop:DbColumnName="ВНаличииTurnover" msprop:design-time-name="1580c520-6880-4ece-8275-a1a596cc92ae" type="xs:double" />
+                  <xs:element name="ВНаличииReceipt" msprop:FriendlyName="ВНаличииReceipt" msprop:DbColumnName="ВНаличииReceipt" msprop:design-time-name="cdf89c31-70fc-467f-a106-eb4c1bcb4bff" type="xs:double" />
+                  <xs:element name="ВНаличииExpense" msprop:FriendlyName="ВНаличииExpense" msprop:DbColumnName="ВНаличииExpense" msprop:design-time-name="a61bd536-cd38-44e2-9a2b-8e40f112ca90" type="xs:double" />
+                  <xs:element name="ВНаличииClosingBalance" msprop:FriendlyName="ВНаличииClosingBalance" msprop:DbColumnName="ВНаличииClosingBalance" msprop:design-time-name="65d2beb4-e82d-4a23-a07e-bf87a71977b8" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
@@ -1494,6 +2527,27 @@
           <xs:selector xpath=".//dbo_v_ВыручкаИСебестоимостьПродаж" />
           <xs:field xpath="Id" />
         </xs:unique>
+        <xs:unique name="dbo_v_ЗаказКлиента_Товары_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_ЗаказКлиента_Товары" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_Boolean_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Boolean" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:unique name="dbo_v_ПричиныОтменыЗаказовКлиентов_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_ПричиныОтменыЗаказовКлиентов" />
+          <xs:field xpath="Ref_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_v_РеализацияТоваровУслуг_Товары_Constraint1" msdata:ConstraintName="Constraint1">
+          <xs:selector xpath=".//dbo_v_РеализацияТоваровУслуг_Товары" />
+          <xs:field xpath="Id" />
+          <xs:field xpath="Ref_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_v_ТоварыНаСкладах_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_ТоварыНаСкладах" />
+          <xs:field xpath="Id" />
+        </xs:unique>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
@@ -1507,6 +2561,22 @@
           <msdata:Relationship name="v_ВыручкаИСебестоимостьПродаж-v_ОсновныеМенеджеры_РозничныеПодразделения" msdata:parent="dbo_v_ОсновныеМенеджеры_РозничныеПодразделения" msdata:child="dbo_v_ВыручкаИСебестоимостьПродаж" msdata:parentkey="ОсновнойМенеджер_Key" msdata:childkey="ОсновнойМенеджер_Key" msprop:Description="" msprop:IsLogical="True" />
           <msdata:Relationship name="v_ВыручкаИСебестоимостьПродаж-v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:parent="dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:child="dbo_v_ВыручкаИСебестоимостьПродаж" msdata:parentkey="ХозяйственнаяОперация" msdata:childkey="ХозяйственнаяОперация" msprop:Description="" msprop:IsLogical="True" />
           <msdata:Relationship name="v_ВыручкаИСебестоимостьПродаж-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:parent="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:child="dbo_v_ВыручкаИСебестоимостьПродаж" msdata:parentkey="Ref_Key" msdata:childkey="Партнер_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-v_Номенклатура" msdata:parent="dbo_v_Номенклатура" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Номенклатура_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-Calendar" msdata:parent="dbo_Calendar" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Date" msdata:childkey="Date" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:parent="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Партнер_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-Boolean" msdata:parent="dbo_Boolean" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Id" msdata:childkey="Отменено" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-v_ПричиныОтменыЗаказовКлиентов" msdata:parent="dbo_v_ПричиныОтменыЗаказовКлиентов" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Ref_Key" msdata:childkey="ПричинаОтмены_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:parent="dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="ХозяйственнаяОперация" msdata:childkey="ХозяйственнаяОперация" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-Calendar" msdata:parent="dbo_Calendar" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="Date" msdata:childkey="Date" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-v_Номенклатура" msdata:parent="dbo_v_Номенклатура" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Номенклатура_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:parent="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Партнер_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:parent="dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="ХозяйственнаяОперация" msdata:childkey="ХозяйственнаяОперация" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-Boolean" msdata:parent="dbo_Boolean" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="Id" msdata:childkey="Согласован" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ЗаказКлиента_Товары-v_Склады" msdata:parent="dbo_v_Склады" msdata:child="dbo_v_ЗаказКлиента_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Товары_Склад_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_РеализацияТоваровУслуг_Товары-v_Склады" msdata:parent="dbo_v_Склады" msdata:child="dbo_v_РеализацияТоваровУслуг_Товары" msdata:parentkey="Ref_Key" msdata:childkey="Товары_Склад_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ТоварыНаСкладах-Calendar" msdata:parent="dbo_Calendar" msdata:child="dbo_v_ТоварыНаСкладах" msdata:parentkey="Date" msdata:childkey="Date" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ТоварыНаСкладах-v_Номенклатура" msdata:parent="dbo_v_Номенклатура" msdata:child="dbo_v_ТоварыНаСкладах" msdata:parentkey="Ref_Key" msdata:childkey="Номенклатура_Key" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="v_ТоварыНаСкладах-v_Склады" msdata:parent="dbo_v_Склады" msdata:child="dbo_v_ТоварыНаСкладах" msdata:parentkey="Ref_Key" msdata:childkey="Склад_Key" msprop:Description="" msprop:IsLogical="True" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>

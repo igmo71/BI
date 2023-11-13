@@ -1,0 +1,777 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="969b3156-019e-4f7a-a7f0-09818e3339ab" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Заказ Клиента</ID>
+  <Name>Заказ Клиента</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11720" scrolltop="-6773" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31988" y="22040" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ЗаказКлиента_Товары" left="20" top="-1773" logicalid="20" controlid="1" masterid="0" hint1="0" hint2="0" width="5556" height="15715" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b4150000633d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_ЗаказКлиента_Товары" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Номенклатура" left="7355" top="4032" logicalid="21" controlid="2" masterid="0" hint1="0" hint2="0" width="5927" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002717000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_Номенклатура" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="-6410" top="-829" logicalid="22" controlid="3" masterid="0" hint1="0" hint2="0" width="3175" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000670c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Calendar" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5276" top="3584" logicalid="23" controlid="4" masterid="0" hint1="0" hint2="0" width="2379" height="2798" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_Номенклатура]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="28" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7355" y="5982" />
+              <point x="6167" y="5982" />
+              <point x="6167" y="3884" />
+              <point x="5576" y="3884" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-3535" top="-928" logicalid="24" controlid="5" masterid="0" hint1="0" hint2="0" width="3855" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-Calendar]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="1" sourceattachpoint="11" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-3235" y="-529" />
+              <point x="-1608" y="-529" />
+              <point x="-1608" y="-516" />
+              <point x="20" y="-516" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_БазоваяНоменклатура" left="16275" top="7985" logicalid="25" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_БазоваяНоменклатура" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12982" top="7882" logicalid="26" controlid="7" masterid="0" hint1="0" hint2="0" width="3593" height="3177" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_Номенклатура-v_БазоваяНоменклатура]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="18" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16275" y="10659" />
+              <point x="14896" y="10659" />
+              <point x="14896" y="8182" />
+              <point x="13282" y="8182" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ВидыНоменклатуры" left="16063" top="-257" logicalid="27" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_ВидыНоменклатуры" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12982" top="-182" logicalid="28" controlid="9" masterid="0" hint1="0" hint2="0" width="3381" height="6464" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_Номенклатура-v_ВидыНоменклатуры]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="2" sourceattachpoint="10" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16063" y="217" />
+              <point x="13731" y="217" />
+              <point x="13731" y="5982" />
+              <point x="13282" y="5982" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ПодвидыНоменклатуры" left="16352" top="3486" logicalid="29" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_ПодвидыНоменклатуры" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="12982" top="5211" logicalid="30" controlid="11" masterid="0" hint1="0" hint2="0" width="3670" height="2171" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_Номенклатура-v_ПодвидыНоменклатуры]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="10" destid="2" sourceattachpoint="16" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="16352" y="5610" />
+              <point x="14817" y="5610" />
+              <point x="14817" y="7082" />
+              <point x="13282" y="7082" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" left="-11050" top="9072" logicalid="31" controlid="12" masterid="0" hint1="0" hint2="0" width="9429" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d5240000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-1921" top="7434" logicalid="32" controlid="13" masterid="0" hint1="0" hint2="0" width="2241" height="2639" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_Партнеры_РозничныеПодразделения_ОсновныеМенеджеры]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="1" sourceattachpoint="35" destattachpoint="52" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1621" y="9673" />
+              <point x="-1034" y="9673" />
+              <point x="-1034" y="7734" />
+              <point x="20" y="7734" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Boolean" left="-6711" top="5293" logicalid="33" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Boolean" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-4011" top="4684" logicalid="34" controlid="15" masterid="0" hint1="0" hint2="0" width="4331" height="1398" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-Boolean]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="1" sourceattachpoint="11" destattachpoint="42" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-3711" y="5682" />
+              <point x="-1846" y="5682" />
+              <point x="-1846" y="4984" />
+              <point x="20" y="4984" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_ПричиныОтменыЗаказовКлиентов" left="7709" top="11553" logicalid="35" controlid="16" masterid="0" hint1="0" hint2="0" width="6333" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000bd180000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_ПричиныОтменыЗаказовКлиентов" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="5276" top="9084" logicalid="36" controlid="17" masterid="0" hint1="0" hint2="0" width="2733" height="3470" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_ЗаказКлиента_Товары-v_ПричиныОтменыЗаказовКлиентов]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="16" destid="1" sourceattachpoint="22" destattachpoint="59" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7709" y="12154" />
+              <point x="6938" y="12154" />
+              <point x="6938" y="9384" />
+              <point x="5576" y="9384" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-11720</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6773</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-11050</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-1773</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="333ef35c-7294-459a-9264-8afd36b2fd92">
+      <ID>Заказ Клиента</ID>
+      <Name>Заказ Клиента</Name>
+      <DimensionID>Заказ Клиента</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a9b3978c-42af-43b9-bd52-621c4dcd6313">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="360718b9-c7c4-4c26-ad0d-dc8af23a3a8c">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a78770b-47f5-469b-8233-d3ad4cd958e7">
+          <AttributeID>Номенклатура Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2fb9c4c-b984-4ca8-9822-dbca02053316">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b1d3446c-bf99-4aad-b523-4e405a524a5c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c7e7020b-59de-4e8d-abec-925c360b059d">
+      <ID>Календарь</ID>
+      <Name>Календарь</Name>
+      <DimensionID>Календарь</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="81ed0ca6-e55d-48a8-89ce-4020c86714cc">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a88805d-649a-4054-85d3-b5f0cf54c816">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8009950b-34f8-444c-9449-48969ae160e5">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="832bf5d6-6a08-4327-bd66-c3e5e7e7fca5">
+          <AttributeID>Month Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a403dba2-f486-4eec-bd9e-a36ede2337ed">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5d822771-92a7-41cc-9629-233783f61d97">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="ad39a86a-faa1-4e29-814f-aab17c6a62c6">
+          <HierarchyID>Hierarchy 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5589bb8c-74e2-4e09-972f-36518a8e22f8">
+      <ID>Номенклатура Вид-Подвид</ID>
+      <Name>Номенклатура Вид-Подвид</Name>
+      <DimensionID>Номенклатура Вид-Подвид</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2ad3578a-50e5-4197-8a4e-07ffbf1b1cde">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b202452-7c6f-49ab-ab29-64e6516bc664">
+          <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b918d54-9db9-404e-bcc3-ffe13dab2109">
+          <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="99e35aa1-fd35-438a-824f-8b0a4c1eb307">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="b831d8e1-c73e-438b-a1b3-e8e4c4223d76">
+      <ID>Номенклатура Вид-Подвид-Базовая</ID>
+      <Name>Номенклатура Вид-Подвид-Базовая</Name>
+      <DimensionID>Номенклатура Вид-Подвид-Базовая</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2df0735c-ae9e-4078-8823-7270381f55c3">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b472f3f-0f1d-49dd-9f88-d86482789b72">
+          <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="499da013-a173-4ac1-831d-e4ddead84dbd">
+          <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6cce00bf-32f9-4f69-baae-d560a704043e">
+          <AttributeID>v Базовая Номенклатура - Ref Key</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="2084ecaf-afa5-40ae-8a92-e30d7e2ad61c">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="6e19dfd0-cb4c-4730-80ef-456fdd02e738">
+      <ID>Номенклатура Каталог-Базовая</ID>
+      <Name>Номенклатура Каталог-Базовая</Name>
+      <DimensionID>Номенклатура Каталог-Базовая</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="10e51414-c252-49cf-988d-84a7b3b1a520">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1715986-2d02-476b-be10-c334a1706aeb">
+          <AttributeID>Parent Базовая Номенклатура Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="25ff361b-e8e0-4b4f-9130-b4ee0dc39aca">
+      <ID>Партнеры - Розничные Подразделения - Основные Менеджеры</ID>
+      <Name>Партнеры - Розничные Подразделения - Основные Менеджеры</Name>
+      <DimensionID>Партнеры - Розничные Подразделения - Основные Менеджеры</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9f4023b1-da4c-4552-96fa-ad907da6d6b3">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47869d1d-cbfb-4582-9445-3ebba7109369">
+          <AttributeID>Parent Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="15829046-8796-4764-8a2e-b22c693770f5">
+      <ID>Отменено</ID>
+      <Name>Отменено</Name>
+      <DimensionID>Отменено</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="470a9bc9-b414-4819-ac0c-37c594702d91">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c15336ab-0fe0-4e0b-8952-415de639b378">
+      <ID>Причины Отмены Заказов Клиентов</ID>
+      <Name>Причины Отмены Заказов Клиентов</Name>
+      <DimensionID>Причины Отмены Заказов Клиентов</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d7caba48-77fb-4e53-8ffc-1e9cf1a17e1b">
+          <AttributeID>Ref Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="1810e8de-b73d-4138-9664-cf17647caa45">
+      <ID>v Заказ Клиента Товары</ID>
+      <Name>Заказ Клиента Товары</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5649e350-340d-40a0-ac9f-f44d4d7f2958">
+          <ID>Количество Упаковок</ID>
+          <Name>Количество Упаковок</Name>
+          <Source dwd:design-time-name="ba0b3e26-d030-4e4c-a385-f5944dd092cd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0e87fbe4-89f1-490f-8c46-505b6582633a">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>КоличествоУпаковок</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.#;-#,##0.#</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="e204f713-8f0d-411f-9549-647cf59b3ee0">
+          <ID>Количество</ID>
+          <Name>Количество</Name>
+          <Source dwd:design-time-name="51dbd646-5577-4ad1-913d-782a4edefaa5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c71a568-1fa2-4a14-a020-dda44a536997">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>Количество</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="4bcedb46-a2b0-4881-a136-e084e87713cd">
+          <ID>Цена</ID>
+          <Name>Цена</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="d8dd634c-34ef-411d-aec8-232485e6ec04">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49efdf63-4eeb-41df-9de3-f272c2b31744">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>Цена</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="36fbfecd-ab1a-431b-8719-794857f846d6">
+          <ID>Сумма</ID>
+          <Name>Сумма</Name>
+          <Source dwd:design-time-name="01d2c0e8-8ffc-4810-b089-6d3c910e88ec">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="75eed793-f2cb-4c52-9a4e-5c0a43eb4989">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>Сумма</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="ccb0e52b-8376-466f-9de8-c9b4826deb31">
+          <ID>Сумма НДС</ID>
+          <Name>Сумма НДС</Name>
+          <Source dwd:design-time-name="3a5665cb-bd98-4855-8ff3-a2244e51e963">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="294b777f-7881-4db3-b847-45ec28402594">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>СуммаНДС</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="885acfda-4cf6-4493-9034-87abe74f22c0">
+          <ID>Сумма СНДС</ID>
+          <Name>Сумма СНДС</Name>
+          <Source dwd:design-time-name="8ca7f8db-3f8a-4e8c-83de-2b6e53e96d35">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e60f1ba3-98a1-4975-b7e8-8bb0684807b8">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>СуммаСНДС</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="4e4bfc93-6187-4f07-88a5-564beae153e2">
+          <ID>Сумма Ручной Скидки</ID>
+          <Name>Сумма Ручной Скидки</Name>
+          <Source dwd:design-time-name="dc31a9c5-b93a-4650-a0cd-126d628817d2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="91a40631-79ce-4e09-aab1-67ba000ec0ea">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>СуммаРучнойСкидки</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="23108c17-4dca-4d33-8ff1-91d3a45d890b">
+          <ID>Процент Ручной Скидки</ID>
+          <Name>Процент Ручной Скидки</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="98e2dc88-4b8c-4f86-bf43-22b73b5791c3">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="10330401-da66-4284-9916-745eff4fbec1">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>ПроцентРучнойСкидки</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="61543fbe-3513-4d97-8365-de05d7beecc7">
+          <ID>Сумма Автоматической Скидки</ID>
+          <Name>Сумма Автоматической Скидки</Name>
+          <Source dwd:design-time-name="9b5be958-9308-4a6b-a475-7cf8ef8e2218">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="46c678d0-8155-4ea2-aad7-7730eedf1c75">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>СуммаАвтоматическойСкидки</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="c9aaccdc-1cca-4530-b001-9517e6d65eac">
+          <ID>Процент Автоматической Скидки</ID>
+          <Name>Процент Автоматической Скидки</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="c3509b6b-d861-4b6d-9477-fa072c3f6f81">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="88fafef1-2932-4870-8549-38fa4b518a63">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+              <ColumnID>ПроцентАвтоматическойСкидки</ColumnID>
+            </Source>
+          </Source>
+          <FormatString>#,##0.0;-#,##0.0</FormatString>
+        </Measure>
+        <Measure dwd:design-time-name="70251477-b14a-474d-b442-108601efe857">
+          <ID>v Заказ Клиента Товары Count</ID>
+          <Name>Количество Строк</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="9e39a540-cb0d-44f6-8737-1a11604a2b60">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="da75b7cc-fc45-4e82-a0dd-fcd528611510">
+              <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f3d708ca-98ce-4bcf-87ed-03b92fb10a89">
+          <CubeDimensionID>Заказ Клиента</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4027d38e-a52d-449f-b5bb-ff707289f3b2">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bef0b4da-60c1-48cc-b2c7-0837f24c690f">
+                  <DataType>WChar</DataType>
+                  <DataSize>49</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c6bdc0ac-0e5e-4321-8ce5-ec0baee1fd2c">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="516e8132-25c3-40ee-b86d-ee5416ae94d8">
+          <CubeDimensionID>Календарь</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="816d0b02-eb56-47b1-808d-f70fee26e03c">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5f4ee8b4-9437-491a-a2ab-a5a2705d19dc">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="404aa96c-94f9-4c73-85f3-acf741b14b35">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Date</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="305ffd29-fb15-4f16-af08-8b8625e5c19c">
+          <CubeDimensionID>Номенклатура Вид-Подвид-Базовая</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0f18d100-79c2-4fed-931d-ef1f04bd4cb1">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bcc493fe-fb06-47de-a912-37c3f5450654">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0311c4b-80e6-411b-a80d-c7c00617b34f">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Номенклатура_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4d2fac4e-534d-43af-9770-87444bce5107">
+          <CubeDimensionID>Номенклатура Каталог-Базовая</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8ca5b698-4c54-44b7-a705-62011d0c32ef">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d936616-a957-40c4-acd7-d97f78782fe2">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ad8a1e0e-f560-4752-9a8e-a268f8be33eb">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Номенклатура_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="67cc0219-3b87-484e-8d67-4ff633a715e5">
+          <CubeDimensionID>Партнеры - Розничные Подразделения - Основные Менеджеры</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="636e1bd7-3eb0-48dc-8a01-c961a27c53f7">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="665f5281-bc33-49e2-8ccb-6fb89e88a4c4">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf74644a-8fa4-41f8-8509-6f9a3141b0ee">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Партнер_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="caa5573e-4f12-48bd-b0ae-ec1b9a7f78b0">
+          <CubeDimensionID>Причины Отмены Заказов Клиентов</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d02d3c56-67d8-48d8-b919-a4266f872a9f">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cbc73438-13c7-42c1-974e-c471ee675d50">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a639e52c-4584-4485-b337-17f5c5fdb207">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>ПричинаОтмены_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0a830166-bed3-4417-9cdf-bf78ac3e72d3">
+          <CubeDimensionID>Отменено</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="90b877ce-c903-4b0a-9cba-319e541c44f8">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="64cf1582-db33-48cd-bc37-68753d411b65">
+                  <DataType>Boolean</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c69da9c6-e0e6-4a1b-9538-df6ff78c5f86">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Отменено</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="60bb27bc-97fc-4b97-986f-24947e851857">
+          <CubeDimensionID>Номенклатура Вид-Подвид</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="01b5033f-e367-4461-a8d1-0428a59352a9">
+              <AttributeID>Ref Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ecba8126-62b6-4ff6-97d5-e2646f343498">
+                  <DataType>WChar</DataType>
+                  <DataSize>36</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="19360881-c016-4be4-b8e7-29d39acbc48f">
+                    <TableID>dbo_v_ЗаказКлиента_Товары</TableID>
+                    <ColumnID>Номенклатура_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="3a3e072b-2d12-4347-a3e6-843fe8693872">
+    <DataSourceViewID>WH-dev</DataSourceViewID>
+  </Source>
+</Cube>
