@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="58da39af-6c1e-40e7-8141-74fa07f3865b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Хозяйственная Операция</ID>
-  <Name>Хозяйственная Операция</Name>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="02d1e0be-8b5f-40f1-9f6d-bc781d002c99" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Закупки - Хозяйственная Операция</ID>
+  <Name>Закупки - Хозяйственная Операция</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -42,26 +42,28 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="72778d18-4684-4a0b-acef-9fc1dfdc6980">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="267f4359-4315-4018-af75-9cb05b827be9">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="a85fa794-0d33-466b-9d96-96aa84de27a6">
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="6201d8b7-1f51-421b-a394-b8f004a01f01">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="9b960051-b492-4ced-9409-e8f5c78a20b4">
+    <Attribute dwd:design-time-name="66d765dd-8d6e-45f7-9a78-10630b2aeb75">
       <ID>Хозяйственная Операция</ID>
       <Name>Хозяйственная Операция</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="41e6cad3-92e6-43ba-8454-80f74f08df78">
+        <KeyColumn dwd:design-time-name="229d03ac-51e1-4b3e-8c5c-89593e77e3bc">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89aeaa0f-4d72-4305-92b7-4146da6865a5">
-            <TableID>dbo_v_ВыручкаИСебестоимостьПродаж_ХозяйственнаяОперация</TableID>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e4fb4b1-28e3-4f37-b59b-a7c776dc5c9a">
+            <TableID>dbo_v_Закупки_ХозяйственнаяОперация</TableID>
             <ColumnID>ХозяйственнаяОперация</ColumnID>
           </Source>
         </KeyColumn>
