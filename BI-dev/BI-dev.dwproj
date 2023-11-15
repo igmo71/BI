@@ -17,8 +17,60 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.cube</Name>
+      <FullPath>Заказ Клиента.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента.partitions</Name>
+          <FullPath>Заказ Клиента.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Реализация Товаров Услуг.cube</Name>
+      <FullPath>Реализация Товаров Услуг.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Реализация Товаров Услуг.partitions</Name>
+          <FullPath>Реализация Товаров Услуг.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Товары На Складах.cube</Name>
+      <FullPath>Товары На Складах.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Товары На Складах.partitions</Name>
+          <FullPath>Товары На Складах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Закупки.cube</Name>
+      <FullPath>Закупки.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Закупки.partitions</Name>
+          <FullPath>Закупки.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента.dim</Name>
+      <FullPath>Заказ Клиента.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Закупки - Хозяйственная Операция.dim</Name>
+      <FullPath>Закупки - Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>Календарь.dim</Name>
       <FullPath>Календарь.dim</FullPath>
@@ -36,8 +88,16 @@
       <FullPath>Номенклатура Каталог-Базовая.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Номенклатура.dim</Name>
+      <FullPath>Номенклатура.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Основные Менеджеры - Розничные Подразделения.dim</Name>
       <FullPath>Основные Менеджеры - Розничные Подразделения.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Отменено.dim</Name>
+      <FullPath>Отменено.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Партнеры - Розничные Подразделения - Основные Менеджеры.dim</Name>
@@ -48,12 +108,28 @@
       <FullPath>Партнеры - Розничные Подразделения.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Партнеры.dim</Name>
+      <FullPath>Партнеры.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Пользователи.dim</Name>
+      <FullPath>Пользователи.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Причины Отмены Заказов Клиентов.dim</Name>
+      <FullPath>Причины Отмены Заказов Клиентов.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Расчет Себестоимости.dim</Name>
+      <FullPath>Расчет Себестоимости.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Склады.dim</Name>
       <FullPath>Склады.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Хозяйственная Операция.dim</Name>
-      <FullPath>Хозяйственная Операция.dim</FullPath>
+      <Name>Согласован.dim</Name>
+      <FullPath>Согласован.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
