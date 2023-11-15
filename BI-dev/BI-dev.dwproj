@@ -67,8 +67,22 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Цены Номенклатуры.cube</Name>
+      <FullPath>Цены Номенклатуры.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Цены Номенклатуры.partitions</Name>
+          <FullPath>Цены Номенклатуры.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
+    <ProjectItem>
+      <Name>Виды Цен.dim</Name>
+      <FullPath>Виды Цен.dim</FullPath>
+    </ProjectItem>
     <ProjectItem>
       <Name>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</Name>
       <FullPath>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</FullPath>
@@ -92,6 +106,10 @@
     <ProjectItem>
       <Name>Номенклатура Вид-Подвид-Базовая.dim</Name>
       <FullPath>Номенклатура Вид-Подвид-Базовая.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Номенклатура Каталог.dim</Name>
+      <FullPath>Номенклатура Каталог.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Номенклатура Каталог-Базовая.dim</Name>
@@ -138,6 +156,10 @@
       <FullPath>Расчет Себестоимости.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Реализация Товаров Услуг.dim</Name>
+      <FullPath>Реализация Товаров Услуг.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Склады.dim</Name>
       <FullPath>Склады.dim</FullPath>
     </ProjectItem>
@@ -146,8 +168,8 @@
       <FullPath>Согласован.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Реализация Товаров Услуг.dim</Name>
-      <FullPath>Реализация Товаров Услуг.dim</FullPath>
+      <Name>Упаковки Единицы Измерения.dim</Name>
+      <FullPath>Упаковки Единицы Измерения.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
