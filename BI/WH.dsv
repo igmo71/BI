@@ -1,0 +1,245 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="06ac0369-0986-4dcb-a9f8-b5178b9a9eca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>WH</ID>
+  <Name>WH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>Партнеры_ПоследниеПродажи</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="1" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="0" scrolltop="0" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29104" y="19103" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01010000900180380100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+              </dds>
+            </DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+          <Diagram>
+            <Name>Партнеры_ПоследниеПродажи</Name>
+            <DiagramLayout>
+              <dds>
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="10" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1007" scrolltop="449" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29104" y="19103" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                  <font>
+                    <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+                  </font>
+                  <mouseicon>
+                    <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                  </mouseicon>
+                </diagram>
+                <layoutmanager>
+                  <ddsxmlobj />
+                </layoutmanager>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры" left="9229" top="2668" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="4551" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000c71100009b0f0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Партнеры" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Партнеры_ПоследниеПродажи" left="1774" top="1415" logicalid="8" controlid="5" masterid="0" hint1="0" hint2="0" width="5874" height="6667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e0000f21600000b1a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Партнеры_ПоследниеПродажи" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="7348" top="2248" logicalid="9" controlid="6" masterid="0" hint1="0" hint2="0" width="2181" height="1167" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_Партнеры_ПоследниеПродажи-v_Партнеры]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="14" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9229" y="3015" />
+                    <point x="8439" y="3015" />
+                    <point x="8439" y="2548" />
+                    <point x="7648" y="2548" />
+                  </connector>
+                </ddscontrol>
+              </dds>
+</DiagramLayout>
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>1007</DiagramViewPortLeft>
+            <DiagramViewPortTop>449</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>WH</DataSourceID>
+  <Schema>
+    <xs:schema id="WH" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="WH" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="43c2c0bb-b72e-4304-a178-5b0346f4358c">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_v_Партнеры" msprop:design-time-name="043f4bee-558c-486c-9e96-69d619cf5878" msprop:FriendlyName="v_Партнеры" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:DbTableName="v_Партнеры">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="437c235f-b564-4eaf-afa0-7a726455eb28">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="DeletionMark" msdata:ReadOnly="true" msprop:FriendlyName="DeletionMark" msprop:DbColumnName="DeletionMark" msprop:design-time-name="c7f08894-6669-4246-81ab-4a46c97b5e8d" type="xs:int" />
+                  <xs:element name="Parent_Key" msprop:FriendlyName="Parent_Key" msprop:DbColumnName="Parent_Key" msprop:design-time-name="b0433df0-ab6c-4145-a53b-87afe9e69d58" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Description" msprop:FriendlyName="Description" msprop:DbColumnName="Description" msprop:design-time-name="3bd48934-41f7-4cca-92d0-a7e889bd50cf" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="150" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="БизнесРегион_Key" msprop:FriendlyName="БизнесРегион_Key" msprop:DbColumnName="БизнесРегион_Key" msprop:design-time-name="59e68c85-2333-4a51-a67d-cbb67c326068" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ОсновнойМенеджер_Key" msprop:FriendlyName="ОсновнойМенеджер_Key" msprop:DbColumnName="ОсновнойМенеджер_Key" msprop:design-time-name="ab549a17-a062-4b5b-9401-8565847e0c0c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ДатаРегистрации" msprop:FriendlyName="ДатаРегистрации" msprop:DbColumnName="ДатаРегистрации" msprop:design-time-name="7c7c7ddb-0850-44d8-b686-78dae6cd97db">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_v_Партнеры_ПоследниеПродажи" msprop:DbTableName="v_Партнеры_ПоследниеПродажи" msprop:FriendlyName="v_Партнеры_ПоследниеПродажи" msprop:TableType="View" msprop:DbSchemaName="dbo" msprop:design-time-name="673194b1-5686-4b91-a795-a28780ea07d3">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Ref_Key" msprop:FriendlyName="Ref_Key" msprop:DbColumnName="Ref_Key" msprop:design-time-name="a0e45b60-c52e-48f7-98f4-04aaeac5f284">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ПоследняяПродажа_Дата" msdata:ReadOnly="true" msprop:FriendlyName="ПоследняяПродажа_Дата" msprop:DbColumnName="ПоследняяПродажа_Дата" msprop:design-time-name="b2d0f798-2903-48f6-816e-fbc816618c8a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ПоследняяПродажа_Дней" msdata:ReadOnly="true" msprop:FriendlyName="ПоследняяПродажа_Дней" msprop:DbColumnName="ПоследняяПродажа_Дней" msprop:design-time-name="17730aa0-7782-4cf9-bd16-0ed45c5ef08a" type="xs:int" minOccurs="0" />
+                  <xs:element name="ПоследняяПродажа_Прибыль" msdata:ReadOnly="true" msprop:FriendlyName="ПоследняяПродажа_Прибыль" msprop:DbColumnName="ПоследняяПродажа_Прибыль" msprop:design-time-name="2397eb1f-71d7-4fe0-9096-0fa01b331be4" type="xs:double" minOccurs="0" />
+                  <xs:element name="ПродажаМенееМесяца_Дата" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаМенееМесяца_Дата" msprop:DbColumnName="ПродажаМенееМесяца_Дата" msprop:design-time-name="82278fe0-d8a3-4127-8e5d-fb20dc058e8b" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ПродажаМенееМесяца_Дней" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаМенееМесяца_Дней" msprop:DbColumnName="ПродажаМенееМесяца_Дней" msprop:design-time-name="b35ef452-86fc-473a-8347-8aee59b9b80b" type="xs:int" minOccurs="0" />
+                  <xs:element name="ПродажаМенееМесяца_Прибыль" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаМенееМесяца_Прибыль" msprop:DbColumnName="ПродажаМенееМесяца_Прибыль" msprop:design-time-name="6b647b60-7905-4155-af86-742b577da397" type="xs:double" minOccurs="0" />
+                  <xs:element name="ПродажаБолееМесяца_Дата" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееМесяца_Дата" msprop:DbColumnName="ПродажаБолееМесяца_Дата" msprop:design-time-name="a8859f5e-ab7c-44ed-b6d6-2ac4475d047d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ПродажаБолееМесяца_Дней" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееМесяца_Дней" msprop:DbColumnName="ПродажаБолееМесяца_Дней" msprop:design-time-name="c563ca58-bf93-4e30-a950-668ece8afee3" type="xs:int" minOccurs="0" />
+                  <xs:element name="ПродажаБолееМесяца_Прибыль" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееМесяца_Прибыль" msprop:DbColumnName="ПродажаБолееМесяца_Прибыль" msprop:design-time-name="ac29f561-baac-4e26-86fa-62d5a032ae6a" type="xs:double" minOccurs="0" />
+                  <xs:element name="ПродажаБолееПолугода_Дата" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееПолугода_Дата" msprop:DbColumnName="ПродажаБолееПолугода_Дата" msprop:design-time-name="54cd26bc-113d-4e32-affd-44634a34f20f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ПродажаБолееПолугода_Дней" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееПолугода_Дней" msprop:DbColumnName="ПродажаБолееПолугода_Дней" msprop:design-time-name="8c140426-46f7-4815-923d-054881bdb806" type="xs:int" minOccurs="0" />
+                  <xs:element name="ПродажаБолееПолугода_Прибыль" msdata:ReadOnly="true" msprop:FriendlyName="ПродажаБолееПолугода_Прибыль" msprop:DbColumnName="ПродажаБолееПолугода_Прибыль" msprop:design-time-name="2e6eef9b-3caa-408c-b8d9-9399d7461a53" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_Партнеры" />
+          <xs:field xpath="Ref_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_v_Партнеры_ПоследниеПродажи_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_Партнеры_ПоследниеПродажи" />
+          <xs:field xpath="Ref_Key" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="v_Партнеры_ПоследниеПродажи-v_Партнеры" msdata:parent="dbo_v_Партнеры" msdata:child="dbo_v_Партнеры_ПоследниеПродажи" msdata:parentkey="Ref_Key" msdata:childkey="Ref_Key" msprop:Description="" msprop:IsLogical="True" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <WH xmlns="" />
+  </Schema>
+</DataSourceView>
