@@ -194,14 +194,18 @@
   </Dimensions>
   <DataSources>
     <ProjectItem>
-      <Name>VM-BI-SQL.ds</Name>
-      <FullPath>VM-BI-SQL.ds</FullPath>
+      <Name>WH-dev.ds</Name>
+      <FullPath>WH-dev.ds</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>WH.ds</Name>
+      <FullPath>WH.ds</FullPath>
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>WH-dev.dsv</Name>
-      <FullPath>WH-dev.dsv</FullPath>
+      <Name>DataSourceView.dsv</Name>
+      <FullPath>DataSourceView.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>
@@ -210,15 +214,25 @@
       <Options>
         <ConnectionMappings>
           <ConfigurationSetting>
-            <Id>VM-BI-SQL</Id>
-            <Name>VM-BI-SQL</Name>
+            <Id>WH-dev</Id>
+            <Name>WH-dev</Name>
             <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH-dev</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=VM-BI-SQL;Persist Security Info=True;Password=;User ID=;Initial Catalog=WH</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
-            <Id>VM-BI-SQL</Id>
-            <Name>VM-BI-SQL</Name>
+            <Id>WH-dev</Id>
+            <Name>WH-dev</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>WH</Id>
+            <Name>WH</Name>
             <Value xsi:type="xsd:int">1</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
