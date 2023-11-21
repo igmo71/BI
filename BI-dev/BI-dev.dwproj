@@ -8,6 +8,16 @@
   </Database>
   <Cubes>
     <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Канал.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Канал.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Канал.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Канал.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Выручка И Себестоимость Продаж.cube</Name>
       <FullPath>Выручка И Себестоимость Продаж.cube</FullPath>
       <Dependencies>
@@ -104,6 +114,22 @@
       <FullPath>Виды Цен.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Вид Деятельности НДС.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Вид Деятельности НДС.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Канал.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Канал.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Раздел Учета.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Раздел Учета.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Тип Запасов.dim</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Тип Запасов.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</Name>
       <FullPath>Выручка И Себестоимость Продаж - Хозяйственная Операция.dim</FullPath>
     </ProjectItem>
@@ -166,6 +192,10 @@
     <ProjectItem>
       <Name>Пользователи.dim</Name>
       <FullPath>Пользователи.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Причины Отмены Заказов Клиентов - Отделы.dim</Name>
+      <FullPath>Причины Отмены Заказов Клиентов - Отделы.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Причины Отмены Заказов Клиентов.dim</Name>
