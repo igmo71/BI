@@ -4142,7 +4142,7 @@
             <Name>ТоварыНаСкладах</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="482" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1235" scrolltop="-6085" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="28496" y="19976" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="482" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1235" scrolltop="-6085" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="26035" y="19976" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -4973,7 +4973,7 @@
       </Value>
     </Annotation>
   </Annotations>
-  <DataSourceID>WH-dev</DataSourceID>
+  <DataSourceID>WH</DataSourceID>
   <Schema>
     <xs:schema id="WH-dev" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
       <xs:element name="WH-dev" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="17ae8b92-6b9d-4c8f-9daf-59d55052c68e">
@@ -5902,11 +5902,11 @@
                   <xs:element name="ВНаличииReceipt" msprop:FriendlyName="ВНаличииReceipt" msprop:DbColumnName="ВНаличииReceipt" msprop:design-time-name="cdf89c31-70fc-467f-a106-eb4c1bcb4bff" type="xs:double" />
                   <xs:element name="ВНаличииExpense" msprop:FriendlyName="ВНаличииExpense" msprop:DbColumnName="ВНаличииExpense" msprop:design-time-name="a61bd536-cd38-44e2-9a2b-8e40f112ca90" type="xs:double" />
                   <xs:element name="ВНаличииClosingBalance" msprop:FriendlyName="ВНаличииClosingBalance" msprop:DbColumnName="ВНаличииClosingBalance" msprop:design-time-name="65d2beb4-e82d-4a23-a07e-bf87a71977b8" type="xs:double" />
-                  <xs:element name="ВНаличииOpeningBalance_Вес" msprop:design-time-name="19491c1b-86d6-454a-97cf-059ec7dd2e1c" msprop:DbColumnName="ВНаличииOpeningBalance_Вес" type="xs:double" minOccurs="0" />
-                  <xs:element name="ВНаличииReceipt_Вес" msprop:design-time-name="15352238-a448-45b9-9d8b-e7a7dde97f04" msprop:DbColumnName="ВНаличииReceipt_Вес" type="xs:double" minOccurs="0" />
-                  <xs:element name="ВНаличииExpense_Вес" msprop:design-time-name="aa95c294-a01f-4736-8a54-669faf567ba6" msprop:DbColumnName="ВНаличииExpense_Вес" type="xs:double" minOccurs="0" />
-                  <xs:element name="ВНаличииTurnover_Вес" msprop:design-time-name="20a3bb02-4e65-4a13-bdae-dfa7b7f8a693" msprop:DbColumnName="ВНаличииTurnover_Вес" type="xs:double" minOccurs="0" />
-                  <xs:element name="ВНаличииClosingBalance_Вес" msprop:design-time-name="da1055e4-5b5e-4786-83e9-de5609d0f552" msprop:DbColumnName="ВНаличииClosingBalance_Вес" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВНаличииOpeningBalance_Вес" msprop:DbColumnName="ВНаличииOpeningBalance_Вес" msprop:design-time-name="19491c1b-86d6-454a-97cf-059ec7dd2e1c" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВНаличииReceipt_Вес" msprop:DbColumnName="ВНаличииReceipt_Вес" msprop:design-time-name="15352238-a448-45b9-9d8b-e7a7dde97f04" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВНаличииExpense_Вес" msprop:DbColumnName="ВНаличииExpense_Вес" msprop:design-time-name="aa95c294-a01f-4736-8a54-669faf567ba6" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВНаличииTurnover_Вес" msprop:DbColumnName="ВНаличииTurnover_Вес" msprop:design-time-name="20a3bb02-4e65-4a13-bdae-dfa7b7f8a693" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВНаличииClosingBalance_Вес" msprop:DbColumnName="ВНаличииClosingBalance_Вес" msprop:design-time-name="da1055e4-5b5e-4786-83e9-de5609d0f552" type="xs:double" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
