@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4076" scrolltop="-1708" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="26538" y="17515" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4076" scrolltop="-1708" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="84" x="26644" y="18785" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -539,19 +539,6 @@
           </Source>
           <FormatString>#,##0.0;-#,##0.0</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="0472b48d-ecc9-476e-bafa-66b8bfb0f714">
-          <ID>Процент Ручной Скидки</ID>
-          <Name>Процент Ручной Скидки</Name>
-          <AggregateFunction>Max</AggregateFunction>
-          <Source dwd:design-time-name="0914a186-6895-4461-8a7b-302a30fc4274">
-            <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="268fdbb8-ab26-473e-87a0-6a6b290e2049">
-              <TableID>dbo_v_ОтчетОРозничныхПродажах_Товары</TableID>
-              <ColumnID>ПроцентРучнойСкидки</ColumnID>
-            </Source>
-          </Source>
-          <FormatString>#,##0"%";-#,##0"%"</FormatString>
-        </Measure>
         <Measure dwd:design-time-name="7dcd3e32-970c-4c8e-a0df-3cffc31b4cba">
           <ID>v Отчет О Розничных Продажах Товары Count</ID>
           <Name>Количество Строк</Name>
@@ -752,4 +739,27 @@
   <Source dwd:design-time-name="91608c0f-3fb6-4602-b200-be05640a2446">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="2c476a1f-6adc-4878-a064-90ed05ece8c5">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Процент Ручной Скидки]
+ AS IIF(([Measures].[Сумма] + [Measures].[Measures].[Сумма Ручной Скидки]) = 0, NULL,
+[Measures].[Сумма Ручной Скидки] / ([Measures].[Сумма] + [Measures].[Measures].[Сумма Ручной Скидки])), 
+FORMAT_STRING = "#,##0%;-#,##0%", 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
 </Cube>
