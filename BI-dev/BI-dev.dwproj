@@ -38,16 +38,6 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Заказ Клиента - Реализация Товаров Услуг.cube</Name>
-      <FullPath>Заказ Клиента - Реализация Товаров Услуг.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Заказ Клиента - Реализация Товаров Услуг.partitions</Name>
-          <FullPath>Заказ Клиента - Реализация Товаров Услуг.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Заказ Клиента.cube</Name>
       <FullPath>Заказ Клиента.cube</FullPath>
       <Dependencies>
@@ -78,6 +68,16 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
+      <Name>Партнеры - Последние Продажи.cube</Name>
+      <FullPath>Партнеры - Последние Продажи.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Партнеры - Последние Продажи.partitions</Name>
+          <FullPath>Партнеры - Последние Продажи.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Реализация Товаров Услуг.cube</Name>
       <FullPath>Реализация Товаров Услуг.cube</FullPath>
       <Dependencies>
@@ -104,6 +104,16 @@
         <ProjectItem>
           <Name>Цены Номенклатуры.partitions</Name>
           <FullPath>Цены Номенклатуры.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Реализация Товаров Услуг.cube</Name>
+      <FullPath>Заказ Клиента - Реализация Товаров Услуг.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Реализация Товаров Услуг.partitions</Name>
+          <FullPath>Заказ Клиента - Реализация Товаров Услуг.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -140,6 +150,10 @@
     <ProjectItem>
       <Name>Закупки - Хозяйственная Операция.dim</Name>
       <FullPath>Закупки - Хозяйственная Операция.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Календарь По Месяцам.dim</Name>
+      <FullPath>Календарь По Месяцам.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Календарь.dim</Name>
@@ -188,10 +202,6 @@
     <ProjectItem>
       <Name>Причины Отмены Заказов Клиентов - Отделы.dim</Name>
       <FullPath>Причины Отмены Заказов Клиентов - Отделы.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Причины Отмены Заказов Клиентов.dim</Name>
-      <FullPath>Причины Отмены Заказов Клиентов.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Расчет Себестоимости.dim</Name>
