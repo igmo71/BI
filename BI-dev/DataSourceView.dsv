@@ -2508,7 +2508,7 @@
             <Name>Выручка И Себестоимость Продаж - Виды Деятельности</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="130" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3546" scrolltop="-2394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="29051" y="20214" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="130" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3546" scrolltop="-2394" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="26458" y="16087" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
                   </font>
@@ -5564,7 +5564,7 @@
                   <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="6773167c-1f90-4e38-a7e4-1bd1b078b792">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="36" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -6094,7 +6094,7 @@
                   <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="5f773fa9-dfa4-4adc-a37b-3c30de4b23bb">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="36" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -6497,7 +6497,7 @@
                   <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="ee836a24-88d5-4691-859f-c86f755c2530">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="36" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -6600,7 +6600,7 @@
                   <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="caa195be-607f-41bd-b8ba-c51aff21d9b8">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="36" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -7452,7 +7452,7 @@
                   <xs:element name="Id" msdata:ReadOnly="true" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="6228b95e-0123-4fe7-83a3-37635ad49ae0" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="49" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -7515,14 +7515,13 @@
                   </xs:element>
                   <xs:element name="ЗаказКлиента_Количество" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_Количество" msprop:DbColumnName="ЗаказКлиента_Количество" msprop:design-time-name="b6960f6b-733a-476c-9096-cb4307fd4530" type="xs:double" minOccurs="0" />
                   <xs:element name="ЗаказКлиента_Вес" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_Вес" msprop:DbColumnName="ЗаказКлиента_Вес" msprop:design-time-name="5c0d8825-e9e3-4866-8c79-d85f55c12904" type="xs:double" minOccurs="0" />
-                  <xs:element name="ЗаказКлиента_СуммаСНДС" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_СуммаСНДС" msprop:DbColumnName="ЗаказКлиента_СуммаСНДС" msprop:design-time-name="95398c94-0212-4161-b77d-612312dacb18" type="xs:double" minOccurs="0" />
                   <xs:element name="ЗаказКлиента_СуммаРучнойСкидки" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_СуммаРучнойСкидки" msprop:DbColumnName="ЗаказКлиента_СуммаРучнойСкидки" msprop:design-time-name="3e6ae12a-d130-46a8-8c9e-85d6e8c5efd4" type="xs:double" minOccurs="0" />
                   <xs:element name="ЗаказКлиента_СуммаАвтоматическойСкидки" msdata:ReadOnly="true" msprop:FriendlyName="ЗаказКлиента_СуммаАвтоматическойСкидки" msprop:DbColumnName="ЗаказКлиента_СуммаАвтоматическойСкидки" msprop:design-time-name="9e1fe4c5-383e-4941-9d44-ac80dc6734f5" type="xs:double" minOccurs="0" />
                   <xs:element name="ЗаказКлиента_Отменено" msprop:FriendlyName="ЗаказКлиента_Отменено" msprop:DbColumnName="ЗаказКлиента_Отменено" msprop:design-time-name="2d665130-48ff-460c-8299-69ff3b2d0fce" type="xs:boolean" minOccurs="0" />
                   <xs:element name="ВыручкаИСебестоимостьПродаж_Ref_Key" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_Ref_Key" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_Ref_Key" msprop:design-time-name="4da6a516-b1c6-4d1a-a87f-11c9da82a741" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
-                        <xs:maxLength value="36" />
+                        <xs:maxLength value="50" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -7550,7 +7549,6 @@
                   </xs:element>
                   <xs:element name="ВыручкаИСебестоимостьПродаж_Количество" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_Количество" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_Количество" msprop:design-time-name="ed1a404e-4889-4e4e-83e5-249cb559deda" type="xs:double" minOccurs="0" />
                   <xs:element name="ВыручкаИСебестоимостьПродаж_Вес" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_Вес" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_Вес" msprop:design-time-name="c236537a-8b8d-488f-b383-0d9d4756b96b" type="xs:double" minOccurs="0" />
-                  <xs:element name="ВыручкаИСебестоимостьПродаж_СуммаСНДС" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_СуммаСНДС" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_СуммаСНДС" msprop:design-time-name="bcacb46f-417f-4b7f-9234-2bfa0938fc03" type="xs:double" minOccurs="0" />
                   <xs:element name="ВыручкаИСебестоимостьПродаж_СуммаРучнойСкидки" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_СуммаРучнойСкидки" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_СуммаРучнойСкидки" msprop:design-time-name="829a1f33-9f95-471c-8793-4e586403960d" type="xs:double" minOccurs="0" />
                   <xs:element name="ВыручкаИСебестоимостьПродаж_СуммаАвтоматическойСкидки" msdata:ReadOnly="true" msprop:FriendlyName="ВыручкаИСебестоимостьПродаж_СуммаАвтоматическойСкидки" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_СуммаАвтоматическойСкидки" msprop:design-time-name="b2cc80c6-3143-4455-a3f7-185cc2d4c339" type="xs:double" minOccurs="0" />
                   <xs:element name="ХозяйственнаяОперация" msprop:DbColumnName="ХозяйственнаяОперация" msprop:design-time-name="792241ed-ffff-4dac-8b97-7841fc57d7e8" minOccurs="0">
@@ -7560,6 +7558,8 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="ЗаказКлиента_Сумма" msprop:design-time-name="322ab0c8-cae5-4aa4-b062-1462b903db80" msprop:DbColumnName="ЗаказКлиента_Сумма" type="xs:double" minOccurs="0" />
+                  <xs:element name="ВыручкаИСебестоимостьПродаж_Сумма" msprop:design-time-name="ea68db01-b1ef-48e6-aef1-d73f445311b5" msprop:DbColumnName="ВыручкаИСебестоимостьПродаж_Сумма" type="xs:double" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
