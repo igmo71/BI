@@ -906,79 +906,45 @@ The CALCULATE command controls the aggregation of leaf cells in the cube.
 If the CALCULATE command is deleted or modified, the data within the cube is affected.
 You should edit this command only if you manually specify how the cube is aggregated.
 */
-CALCULATE;     
+CALCULATE;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Конверсия Вес]
  AS IIF( [Measures].[Заказ Вес] = 0, NULL, [Measures].[Реализация Вес] / [Measures].[Заказ Вес]), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Конверсия Сумма]
  AS IIF( [Measures].[Заказ Сумма] = 0, NULL, [Measures].[Реализация Сумма] / [Measures].[Заказ Сумма]), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Конверсия Сумма С НДС]
- AS IIF( [Measures].[Заказ Сумма С НДС] = 0, NULL, [Measures].[Реализация Сумма] / [Measures].[Заказ Сумма С НДС]), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Автоматической Скидки]
  AS IIF(([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
 [Measures].[Заказ Сумма Автоматической Скидки] / ([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Автоматической Скидки С НДС]
- AS IIF(([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
-[Measures].[Заказ Сумма Автоматической Скидки] / ([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Ручной Скидки]
  AS IIF(([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
 [Measures].[Заказ Сумма Ручной Скидки] / ([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Ручной Скидки С НДС]
- AS IIF(([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
-[Measures].[Заказ Сумма Ручной Скидки] / ([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Общей Скидки]
  AS IIF(([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
 ([Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) / ([Measures].[Заказ Сумма] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Заказ Процент Общей Скидки С НДС]
- AS IIF(([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) = 0, NULL,
-([Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки]) / ([Measures].[Заказ Сумма С НДС] + [Measures].[Заказ Сумма Автоматической Скидки] + [Measures].[Заказ Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Автоматической Скидки]
  AS IIF(([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
 [Measures].[Реализация Сумма Автоматической Скидки] / ([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Автоматической Скидки С НДС]
- AS IIF(([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
-[Measures].[Реализация Сумма Автоматической Скидки] / ([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;     
+VISIBLE = 1;      
 CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Ручной Скидки]
  AS IIF(([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
 [Measures].[Реализация Сумма Ручной Скидки] / ([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Ручной Скидки С НДС]
- AS IIF(([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
-[Measures].[Реализация Сумма Ручной Скидки] / ([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
+VISIBLE = 1;    
 CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Общей Скидки]
  AS IIF(([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
 ([Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) / ([Measures].[Реализация Сумма] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
 FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ;   
-CREATE MEMBER CURRENTCUBE.[Measures].[Реализация Процент Общей Скидки С НДС]
- AS IIF(([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) = 0, NULL,
-([Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки]) / ([Measures].[Реализация Сумма С НДС] + [Measures].[Реализация Сумма Автоматической Скидки] + [Measures].[Реализация Сумма Ручной Скидки])), 
-FORMAT_STRING = "#,##0.0%;-#,##0.0%", 
-VISIBLE = 1  ; </Text>
+VISIBLE = 1; </Text>
         </Command>
       </Commands>
     </MdxScript>
