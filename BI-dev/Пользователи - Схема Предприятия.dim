@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="19243c2a-0fe7-4df9-9ce3-ce027545eb92" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="87dacc1c-7f6d-4ec7-b93a-519301c4f66c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Пользователи - Схема Предприятия</ID>
   <Name>Пользователи - Схема Предприятия</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3811" scrolltop="-6959" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10901" y="16563" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3811" scrolltop="-6959" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9313" y="17965" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -68,57 +68,56 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6e6cd255-efba-4141-bb4c-efd608cbd8f2">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e51ff9f8-f365-45a2-94e0-d89a6cdf0577">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8c317424-ef34-4bba-9292-004ca848c8d9">
+  <ErrorConfiguration dwd:design-time-name="df03eb15-956e-48ce-b85d-f58a97a8365a">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="69b91077-6e88-4071-99a2-4da7be2ad8e8">
+    <Attribute dwd:design-time-name="3d21e375-0174-4ffa-a0a3-99feb1fe3d93">
       <ID>Ref Key</ID>
-      <Name>Ref Key</Name>
+      <Name>Пользователи - Схема Предприятия</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a237e77f-7c5c-47f9-9841-9fc926833e35">
+        <KeyColumn dwd:design-time-name="3d5acb91-f077-41bb-adf0-7eb80be4cb12">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f817007d-4fa9-44e8-81d7-ec092b75d002">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d75b3d7-968c-4ede-a010-c4b9ca1c3556">
             <TableID>dbo_v_Пользователи_СхемаПредприятия</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="fca51344-2fcb-4cc0-86ce-ef8d870368dc">
+      <NameColumn dwd:design-time-name="252cc276-2394-4d55-b314-0e0b5b7b90ac">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="ce281df9-64e7-4e79-b7ec-0cedf59956ac">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8ad19993-ae6e-4e55-98cc-72d3525b048b">
           <TableID>dbo_v_Пользователи_СхемаПредприятия</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="343d4a20-452b-43eb-9fbb-1c89a4bc1a84">
+        <AttributeRelationship dwd:design-time-name="282add80-b338-4672-947d-a1ed36880d0f">
           <AttributeID>Parent Key</AttributeID>
           <Name>Пользователи - Схема Предприятия</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="57d5ec8b-dbda-46f3-be94-975eb9642774">
+    <Attribute dwd:design-time-name="20e7f8e0-ff51-4404-8cc9-60c3d33c46fd">
       <ID>Parent Key</ID>
-      <Name>Пользователи - Схема Предприятия</Name>
+      <Name>Пользователи - Схема Предприятия Иерархия</Name>
       <Usage>Parent</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8b6dcd02-d988-4dd0-a0d4-e4b60637a8db">
+        <KeyColumn dwd:design-time-name="d4f38c5c-5ebc-460f-8258-0a9527bd122b">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="105ce90f-ec8d-4bd6-9d56-1b024b681578">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd88d99f-2d0a-4698-8052-a3606d38663f">
             <TableID>dbo_v_Пользователи_СхемаПредприятия</TableID>
             <ColumnID>Parent_Key</ColumnID>
           </Source>
