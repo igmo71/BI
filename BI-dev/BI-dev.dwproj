@@ -8,6 +8,16 @@
   </Database>
   <Cubes>
     <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Vip.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Vip.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Vip.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Vip.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Выручка И Себестоимость Продаж Обороты.cube</Name>
       <FullPath>Выручка И Себестоимость Продаж Обороты.cube</FullPath>
       <Dependencies>
@@ -78,6 +88,16 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
+      <Name>ЗаказКлиента - РеализацияТоваровУслуг - Количество.cube</Name>
+      <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Количество.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ЗаказКлиента - РеализацияТоваровУслуг - Количество.partitions</Name>
+          <FullPath>ЗаказКлиента - РеализацияТоваровУслуг - Количество.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Закупки.cube</Name>
       <FullPath>Закупки.cube</FullPath>
       <Dependencies>
@@ -94,6 +114,16 @@
         <ProjectItem>
           <Name>Отчет О Розничных Продажах.partitions</Name>
           <FullPath>Отчет О Розничных Продажах.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Партнеры - Последние Продажи.cube</Name>
+      <FullPath>Партнеры - Последние Продажи.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Партнеры - Последние Продажи.partitions</Name>
+          <FullPath>Партнеры - Последние Продажи.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -124,16 +154,6 @@
         <ProjectItem>
           <Name>Цены Номенклатуры.partitions</Name>
           <FullPath>Цены Номенклатуры.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Партнеры - Последние Продажи.cube</Name>
-      <FullPath>Партнеры - Последние Продажи.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Партнеры - Последние Продажи.partitions</Name>
-          <FullPath>Партнеры - Последние Продажи.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
