@@ -207,6 +207,26 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Статистика Звонков.cube</Name>
+      <FullPath>Статистика Звонков.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Статистика Звонков.partitions</Name>
+          <FullPath>Статистика Звонков.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Заказ Клиента - Реализация Товаров Услуг 2.cube</Name>
+      <FullPath>Заказ Клиента - Реализация Товаров Услуг 2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Заказ Клиента - Реализация Товаров Услуг 2.partitions</Name>
+          <FullPath>Заказ Клиента - Реализация Товаров Услуг 2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -352,6 +372,10 @@
     <ProjectItem>
       <Name>Партнеры - Теги.dim</Name>
       <FullPath>Партнеры - Теги.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Типы Звонков.dim</Name>
+      <FullPath>Типы Звонков.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
