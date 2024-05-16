@@ -1,19 +1,39 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fd7ebd2b-bfae-474a-a0d8-db7d720b2980" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>ЗаказКлиента - РеализацияТоваровУслуг - Количество - Источник Заявки</ID>
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2a6e14d9-c971-41fe-b0d6-cf6b31ea53b2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>ЗаказКлиента - РеализацияТоваровУслуг - Источники Заявок</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>v Заказ Клиента Реализация Товаров Услуг Count Источники Заявок</ID>
+      <ID>v Заказ Клиента Реализация Товаров Услуг Источники Заявок</ID>
       <Partitions>
-        <Partition dwd:design-time-name="59c678f4-15e1-4822-97c4-31adfb108428">
-          <ID>v Заказ Клиента Реализация Товаров Услуг Count Источники Заявок</ID>
-          <Name>v Заказ Клиента Реализация Товаров Услуг Count Источники Заявок</Name>
+        <Partition dwd:design-time-name="59411452-2746-40e1-a28e-91d21dda3d52">
+          <ID>v Заказ Клиента Реализация Товаров Услуг Источники Заявок</ID>
+          <Name>v Заказ Клиента Реализация Товаров Услуг Источники Заявок</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="00c0a456-52d4-46d6-973c-4b958c22006d">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="54b795d4-9340-4f95-9018-1ddd7326fb38">
             <DataSourceViewID>WH-dev</DataSourceViewID>
-            <TableID>dbo_v_ЗаказКлиента_РеализацияТоваровУслуг_count_ИсточникиЗаявок</TableID>
+            <TableID>dbo_v_ЗаказКлиента_РеализацияТоваровУслуг_ИсточникиЗаявок</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Call Items</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="5678b12f-3eda-40f2-bea3-9497437d1129">
+          <ID>v Call Items</ID>
+          <Name>v Call Items</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="402442a3-2247-4524-9fc0-0346bcc6b3e1">
+            <DataSourceViewID>WH-dev</DataSourceViewID>
+            <TableID>dbo_v_CallItems</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
