@@ -1,4 +1,4 @@
-﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b48b7bc8-aa8f-439d-91ce-79b721c7045a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dc72c0d2-c25a-4d53-91bc-2034d535e53d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Predict__e1608884-07f4-11ed-baa2-00155d01d101</ID>
   <Name>Predict__e1608884-07f4-11ed-baa2-00155d01d101</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -17,7 +17,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10497" scrolltop="-7527" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="33443" y="16854" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10497" scrolltop="-7527" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28099" y="14499" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -73,54 +73,54 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6fd1947e-ce22-4f22-9768-b9fd406c5bc7">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="690b171d-abde-481e-9be1-05537bd78001">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
   <Columns>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="89fe44e9-c79b-4df8-9f80-e1f224dab9b9">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4bfb32a2-2bf9-460e-ad42-47dfb74cf839">
       <ID>Week Num</ID>
       <Name>Week Num</Name>
       <IsKey>true</IsKey>
       <Type>Long</Type>
       <Content>Key Time</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d91492ed-5710-45c4-a3a5-e6c43bfc3472">
+        <KeyColumn dwd:design-time-name="ae8773e9-79c0-4df5-8ce7-a45b9a46287c">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="96cfff01-364f-49e0-938e-8005ff0cf1d7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="134b42aa-e561-48cb-923d-7911d92f3233">
             <TableID>dbo_v_predict__e1608884-07f4-11ed-baa2-00155d01d101</TableID>
             <ColumnID>WeekNum</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="714da656-5d65-4841-9dba-044ade5c748b">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7147b977-2258-4365-93a7-e1593672d268">
       <ID>Вес</ID>
       <Name>Вес</Name>
       <Type>Double</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e027074c-48c8-45d5-9c84-7190905c0f9d">
+        <KeyColumn dwd:design-time-name="d42e0555-286d-4bc0-beac-1794a31c8516">
           <DataType>Double</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7812856-ad4b-4b24-833e-9d5e9d505a11">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="499f2ac9-2ebd-4e5e-aa79-d1c0966ccf55">
             <TableID>dbo_v_predict__e1608884-07f4-11ed-baa2-00155d01d101</TableID>
             <ColumnID>Вес</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b5d472d4-ce05-42fd-a4e0-72407dddc2db">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="447bf18a-5b64-4b70-b285-18c89e1e7dac">
       <ID>Номенклатура Вид Подвид Key</ID>
       <Name>Номенклатура Вид Подвид Key</Name>
       <IsKey>true</IsKey>
       <Type>Text</Type>
       <Content>Key</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7b6b24e6-b0ef-43de-8070-ad0196b9c9ab">
+        <KeyColumn dwd:design-time-name="775d5ab5-268e-4750-a178-3b63e66b5525">
           <DataType>WChar</DataType>
           <DataSize>73</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cd8f26cc-384a-404f-b82d-032887489994">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="45d3dc06-d48c-4942-8577-eecd5cd43fbe">
             <TableID>dbo_v_predict__e1608884-07f4-11ed-baa2-00155d01d101</TableID>
             <ColumnID>Номенклатура_Вид_Подвид_Key</ColumnID>
           </Source>
@@ -129,7 +129,7 @@
     </Column>
   </Columns>
   <MiningModels>
-    <MiningModel dwd:design-time-name="150bfb86-11c5-49e8-a3e7-e640291bd6a4">
+    <MiningModel dwd:design-time-name="d4cca289-1a48-4c0d-89d9-a312af9531e0">
       <ID>Predict__e1608884-07f4-11ed-baa2-00155d01d101</ID>
       <Name>Predict__e1608884-07f4-11ed-baa2-00155d01d101</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -138,6 +138,10 @@
       <State>Unprocessed</State>
       <Algorithm>Microsoft_Time_Series</Algorithm>
       <AlgorithmParameters>
+        <AlgorithmParameter>
+          <Name>MAXIMUM_SERIES_VALUE</Name>
+          <Value xsi:type="xsd:double">5000</Value>
+        </AlgorithmParameter>
         <AlgorithmParameter>
           <Name>MINIMUM_SERIES_VALUE</Name>
           <Value xsi:type="xsd:double">0</Value>
@@ -148,13 +152,13 @@
         </AlgorithmParameter>
       </AlgorithmParameters>
       <Columns>
-        <Column dwd:design-time-name="d9d74bf2-6bd7-4b8e-a52d-d0291fdc1524">
+        <Column dwd:design-time-name="11dc220f-56be-410b-98f6-b7587c96065e">
           <ID>Week Num</ID>
           <Name>Week Num</Name>
           <SourceColumnID>Week Num</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="fc0095e4-9231-416c-877b-03fa1aa0eb28">
+        <Column dwd:design-time-name="b027236d-c862-44cc-919a-55b15ce51e68">
           <ID>Вес</ID>
           <Name>Вес</Name>
           <SourceColumnID>Вес</SourceColumnID>
@@ -163,7 +167,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="8809f415-c0c9-4d07-bd9d-590b14cd11f6">
+        <Column dwd:design-time-name="ffdbfea4-4d29-4b72-af16-237481cbbbd3">
           <ID>Номенклатура Вид Подвид Key</ID>
           <Name>Номенклатура Вид Подвид Key</Name>
           <SourceColumnID>Номенклатура Вид Подвид Key</SourceColumnID>

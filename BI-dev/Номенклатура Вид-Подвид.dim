@@ -1,6 +1,6 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="efc2f408-890e-4ce6-8377-cb427aa2347f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6ded16fe-4dcd-436a-8ba6-7a39c4363598" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Номенклатура Вид-Подвид</ID>
-  <Name>Номенклатура Вид - Подвид</Name>
+  <Name>Номенклатура Вид-Подвид</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -130,46 +130,46 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c5140d38-864e-4b96-8d06-3aeba23f0b1d">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1b08ebf3-c23d-4e21-b600-2333945b657c">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="4140f3c3-0532-465d-af0f-2ace289880a9">
+  <ErrorConfiguration dwd:design-time-name="d92f7bc3-ec08-43f2-853e-cd887a28cee7">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="27f30d16-7f6e-4166-b348-aeca2997667a">
+    <Attribute dwd:design-time-name="4cd4438b-f349-40ac-b6ba-130ed683006f">
       <ID>Ref Key</ID>
       <Name>Номенклатура</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="249f9e77-1b92-4a2f-864b-39d51186ea64">
+        <KeyColumn dwd:design-time-name="cb090285-48dc-4940-985c-7bf8eb874d99">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a6aa7fd-8b64-41e7-99e0-dd57a22bcd96">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08a1435a-e891-4c85-80c0-f1c74350c4c5">
             <TableID>dbo_v_Номенклатура</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="c96d00a0-c453-43d1-aac0-4408127b4bc5">
+      <NameColumn dwd:design-time-name="f0bade0d-6636-4c50-ac78-f745441d3633">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4a72f2bc-e026-4cdb-b655-9487a3ee7e3d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c288ea50-de71-498d-8582-f2a846619bf0">
           <TableID>dbo_v_Номенклатура</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="32f2b471-b6ac-4467-b89f-0c11c7d42b56">
+        <AttributeRelationship dwd:design-time-name="f9ad4b6b-74a9-4cc8-96a7-af0ebca8bcee">
           <AttributeID>v Виды Номенклатуры - Ref Key</AttributeID>
           <Name>Вид</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="03cb9dc7-c54c-4f4a-8332-592fd051fbaf">
+        <AttributeRelationship dwd:design-time-name="5edd01fd-6c4c-495a-a5b8-2bb727ea0d3d">
           <AttributeID>v Подвиды Номенклатуры - Ref Key</AttributeID>
           <Name>Подвид</Name>
         </AttributeRelationship>
@@ -177,24 +177,24 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="bbd46a9f-27ef-4519-b94d-8cc40d303b11">
+    <Attribute dwd:design-time-name="1997e323-ebe6-46ac-b6cc-c7522a1eb8fc">
       <ID>v Виды Номенклатуры - Ref Key</ID>
       <Name>Вид</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8fc6123d-5bab-476e-85b8-dabf565315bd">
+        <KeyColumn dwd:design-time-name="4c845056-ea01-4f92-942f-5bbe9cce7790">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="08033d01-458d-4a1b-987d-0339c04eea50">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="85a29113-85d2-4076-889f-0dda9ee3879a">
             <TableID>dbo_v_ВидыНоменклатуры</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="6a46ef8c-c444-477c-b88c-49420026fdeb">
+      <NameColumn dwd:design-time-name="f4439589-4214-4373-93a5-32855768e3de">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="52c825bf-c957-4057-a846-10377da4e96a">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="2bbb01eb-e5c0-45a4-b430-e9593a1073e2">
           <TableID>dbo_v_ВидыНоменклатуры</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
@@ -202,24 +202,24 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2f9d9cd3-47dc-4e4e-ba07-c682452b7f13">
+    <Attribute dwd:design-time-name="6acd9f2d-c8e3-489a-89bd-21cb64c0c863">
       <ID>v Подвиды Номенклатуры - Ref Key</ID>
       <Name>Подвид</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d8392909-fc4b-472f-9e9a-24bacbf3955d">
+        <KeyColumn dwd:design-time-name="2733e578-3e59-4ad7-8741-50df8b1eef20">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="746283df-3d35-46da-bc5b-1dec265e1e56">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74f08fb5-1bfc-4858-975c-12dd2d6cb941">
             <TableID>dbo_v_ПодвидыНоменклатуры</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="3841af34-6802-46db-86a3-03752b2b51bc">
+      <NameColumn dwd:design-time-name="f2f90b93-28cc-4f65-8342-6c5a11ff4933">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="5382265f-1234-45ef-9785-d37cdeb7c847">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="50c4142e-cc5f-4a39-884a-d6973462cec7">
           <TableID>dbo_v_ПодвидыНоменклатуры</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
@@ -229,21 +229,21 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="eb586fde-b8f6-4df7-b94d-846587d8efdb">
+    <Hierarchy dwd:design-time-name="a88fd284-1376-48ab-81f5-85fa24f6d715">
       <ID>Hierarchy</ID>
       <Name>Номенклатура Вид - Подвид</Name>
       <Levels>
-        <Level dwd:design-time-name="a88b5b08-3f70-4a36-9aed-8a1fdf67edd4">
+        <Level dwd:design-time-name="7e025538-0b39-432a-8ba7-858e49258e8e">
           <ID>Вид</ID>
           <Name>Вид</Name>
           <SourceAttributeID>v Виды Номенклатуры - Ref Key</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="ecd5cbcf-d6d2-4725-80b7-6d762b9aa6e5">
+        <Level dwd:design-time-name="e7f418a9-df88-4c9b-b585-19a929fb67e9">
           <ID>Подвид</ID>
           <Name>Подвид</Name>
           <SourceAttributeID>v Подвиды Номенклатуры - Ref Key</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="1337bfa5-1e53-43ef-a54c-ede2e87ecba7">
+        <Level dwd:design-time-name="f6fe0512-2457-4be1-adff-11b9a3b45523">
           <ID>Номенклатура</ID>
           <Name>Номенклатура</Name>
           <SourceAttributeID>Ref Key</SourceAttributeID>
