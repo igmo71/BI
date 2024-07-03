@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="58" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11179" scrolltop="2928" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="25231" y="14499" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="60" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11179" scrolltop="-297" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="25231" y="14499" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
             </font>
@@ -462,6 +462,37 @@
               <point x="10759" y="9580" />
             </connector>
           </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Возвраты_Расхождения_Number" left="15821" top="13917" logicalid="58" controlid="33" masterid="0" hint1="0" hint2="0" width="3000" height="1237" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d5040000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_v_Возвраты_Расхождения_Number" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10459" top="13680" logicalid="59" controlid="34" masterid="0" hint1="0" hint2="0" width="5662" height="1255" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_Возвраты_Расхождения-v_Возвраты_Расхождения_Number]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="33" destid="5" sourceattachpoint="10" destattachpoint="51" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="15821" y="14535" />
+              <point x="13290" y="14535" />
+              <point x="13290" y="13980" />
+              <point x="10759" y="13980" />
+            </connector>
+          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -483,7 +514,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>2928</Value>
+      <Value>-297</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -727,6 +758,16 @@
         </Attribute>
         <Attribute dwd:design-time-name="ccbb17d8-08d8-4fbd-8d92-dab917481af4">
           <AttributeID>Parent Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="053a84ff-c009-473b-a18a-973564391ef5">
+      <ID>Возвраты Расхождения - Номер Документа</ID>
+      <Name>Номер Документа</Name>
+      <DimensionID>Возвраты Расхождения - Номер Документа</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="fb7700a6-28ba-4516-bec5-b3563aa08caa">
+          <AttributeID>Number</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -1047,6 +1088,26 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="890fc270-ce55-4d4e-8b87-2b5e27d576b8">
                     <TableID>dbo_v_Возвраты_Расхождения</TableID>
                     <ColumnID>ОсновнойМенеджер_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="59dcb171-07f0-4109-840e-c321f5a8a338">
+          <CubeDimensionID>Возвраты Расхождения - Номер Документа</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cb28577c-bb24-4bc4-aa9e-6d76a08723a4">
+              <AttributeID>Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dc11662f-efd0-4e8d-9515-dadaf10ef7b5">
+                  <DataType>WChar</DataType>
+                  <DataSize>100</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0cf98358-9c03-4775-9399-172c065414a8">
+                    <TableID>dbo_v_Возвраты_Расхождения</TableID>
+                    <ColumnID>Number</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>

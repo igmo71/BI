@@ -10825,7 +10825,7 @@
             <Name>Уровень Сервиса</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="166" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-48292" scrolltop="4243" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="90" x="25612" y="15790" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="168" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-49269" scrolltop="1003" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="80" x="25612" y="15790" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01cc00009001b0300100065461686f6d61" />
                   </font>
@@ -11171,7 +11171,7 @@
                 <ddscontrol controlprogid="MSDDS.Polyline" left="-35703" top="12675" logicalid="165" controlid="85" masterid="0" hint1="0" hint2="0" width="5027" height="5282" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="2" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
                     </ddsxmlobj>
                   </control>
                   <layoutobject>
@@ -11188,15 +11188,46 @@
                     <point x="-35403" y="12975" />
                   </connector>
                 </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_Возвраты_Расхождения_Number" left="-39353" top="15725" logicalid="166" controlid="86" masterid="0" hint1="0" hint2="0" width="4984" height="1218" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="000e000078130000c2040000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_v_Возвраты_Расхождения_Number" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="-38360" top="13281" logicalid="167" controlid="87" masterid="0" hint1="0" hint2="0" width="1492" height="2944" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[v_Возвраты_Расхождения-v_Возвраты_Расхождения_Number]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="86" destid="60" sourceattachpoint="4" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="-37961" y="15725" />
+                    <point x="-37961" y="14653" />
+                    <point x="-37168" y="14653" />
+                    <point x="-37168" y="13581" />
+                  </connector>
+                </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>-48292</DiagramViewPortLeft>
-            <DiagramViewPortTop>4243</DiagramViewPortTop>
+            <DiagramViewPortLeft>-49269</DiagramViewPortLeft>
+            <DiagramViewPortTop>1003</DiagramViewPortTop>
             <DiagramBoundingLeft>-54484</DiagramBoundingLeft>
             <DiagramBoundingTop>1874</DiagramBoundingTop>
-            <DiagramZoom>90</DiagramZoom>
+            <DiagramZoom>80</DiagramZoom>
           </Diagram>
           <Diagram>
             <Name>Predict</Name>
@@ -14162,10 +14193,17 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Партнер_Key" msprop:DbColumnName="Партнер_Key" msprop:design-time-name="2e02c93f-534b-4482-a823-c87c051e9424" minOccurs="0">
+                  <xs:element name="Партнер_Key" msprop:design-time-name="2e02c93f-534b-4482-a823-c87c051e9424" msprop:DbColumnName="Партнер_Key" minOccurs="0">
                     <xs:simpleType>
                       <xs:restriction base="xs:string">
                         <xs:maxLength value="36" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Number" msprop:design-time-name="ea640a76-742b-4784-8598-3c02dcbc6a17" msprop:DbColumnName="Number" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
@@ -14582,6 +14620,19 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="dbo_v_Возвраты_Расхождения_Number" msprop:design-time-name="f758c4f6-81c0-4b89-b8b4-2710de230de2" msprop:DbTableName="v_Возвраты_Расхождения_Number" msprop:FriendlyName="v_Возвраты_Расхождения_Number" msprop:DbSchemaName="dbo" msprop:TableType="View">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Number" msdata:ReadOnly="true" msprop:design-time-name="58cf1aa4-a672-406f-a97e-34567567fea8" msprop:DbColumnName="Number" msprop:FriendlyName="Number">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
         <xs:unique name="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
@@ -14776,6 +14827,10 @@
           <xs:selector xpath=".//dbo_v_DataMining_CubeQuery" />
           <xs:field xpath="Id" />
         </xs:unique>
+        <xs:unique name="dbo_v_Возвраты_Расхождения_Number_Constraint1" msdata:ConstraintName="Constraint1" msprop:IsLogical="True" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_v_Возвраты_Расхождения_Number" />
+          <xs:field xpath="Number" />
+        </xs:unique>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
@@ -14958,6 +15013,7 @@
           <msdata:Relationship name="v_DataMining_ОсновнойМенеджер-v_Пользователи_СхемаПредприятия" msdata:parent="dbo_v_Пользователи_СхемаПредприятия" msdata:child="dbo_v_DataMining_ОсновнойМенеджер" msdata:parentkey="Ref_Key" msdata:childkey="Основной_x0020_Менеджер_x0020_Key" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="v_Возвраты_Расхождения-v_Партнеры_Пользователи" msdata:parent="dbo_v_Партнеры_Пользователи" msdata:child="dbo_v_Возвраты_Расхождения" msdata:parentkey="Ref_Key" msdata:childkey="Партнер_Key" msprop:IsLogical="True" msprop:Description="" />
           <msdata:Relationship name="v_Возвраты_Расхождения-v_Партнеры_Пользователи_СхемаПредприятия" msdata:parent="dbo_v_Партнеры_Пользователи_СхемаПредприятия" msdata:child="dbo_v_Возвраты_Расхождения" msdata:parentkey="Ref_Key" msdata:childkey="Партнер_Key" msprop:IsLogical="True" msprop:Description="" />
+          <msdata:Relationship name="v_Возвраты_Расхождения-v_Возвраты_Расхождения_Number" msdata:parent="dbo_v_Возвраты_Расхождения_Number" msdata:child="dbo_v_Возвраты_Расхождения" msdata:parentkey="Number" msdata:childkey="Number" msprop:IsLogical="True" msprop:Description="" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>
