@@ -1,6 +1,6 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1c9db6da-b42e-46e4-8c67-4855130a477a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="74302f46-7aca-4f99-a860-1545c0237b00" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>WhsReport</ID>
-  <Name>Whs Report</Name>
+  <Name>Отчет по Складским очередям</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="14" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7153" scrolltop="-2854" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="29686" y="22066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="28" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7153" scrolltop="-2854" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="27279" y="22066" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="6815" top="-1405" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Calendar" left="6815" top="-1405" logicalid="14" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000670c000088130000" />
             </control>
@@ -30,7 +30,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_User" left="-5720" top="4716" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_User" left="-5720" top="4716" logicalid="15" controlid="2" masterid="0" hint1="0" hint2="0" width="3916" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000057070000" />
             </control>
@@ -41,7 +41,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_Склад" left="-5721" top="2082" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3820" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_Склад" left="-5721" top="2082" logicalid="16" controlid="3" masterid="0" hint1="0" hint2="0" width="3820" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000ec0e000057070000" />
             </control>
@@ -52,7 +52,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_Orders" left="-5711" top="-793" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3874" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_Orders" left="-5711" top="-793" logicalid="17" controlid="4" masterid="0" hint1="0" hint2="0" width="3874" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000220f0000fe080000" />
             </control>
@@ -63,7 +63,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_WhsReport" left="499" top="522" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3916" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="v_WhsReport" left="499" top="522" logicalid="18" controlid="5" masterid="0" hint1="0" hint2="0" width="3916" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00004c0f000088130000" />
             </control>
@@ -74,7 +74,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_ТипОперации" left="7000" top="3852" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3043" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_ТипОперации" left="7000" top="3852" logicalid="19" controlid="6" masterid="0" hint1="0" hint2="0" width="3043" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000e30b0000af050000" />
             </control>
@@ -85,7 +85,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_ТипОчереди" left="6920" top="5563" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="WhsReport_ТипОчереди" left="6920" top="5563" logicalid="20" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1455" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000af050000" />
             </control>
@@ -96,7 +96,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="696" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1526" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="696" logicalid="21" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1526" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -116,7 +116,7 @@
               <point x="4415" y="1922" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-2104" top="4372" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="2903" height="1133" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2104" top="4372" logicalid="22" controlid="9" masterid="0" hint1="0" hint2="0" width="2903" height="1133" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -136,7 +136,7 @@
               <point x="499" y="4672" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-2201" top="2622" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2201" top="2622" logicalid="23" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -156,7 +156,7 @@
               <point x="499" y="3022" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-2137" top="509" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="2936" height="1163" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-2137" top="509" logicalid="24" controlid="11" masterid="0" hint1="0" hint2="0" width="2936" height="1163" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -176,7 +176,7 @@
               <point x="499" y="1372" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="3272" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="3185" height="1707" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="3272" logicalid="25" controlid="12" masterid="0" hint1="0" hint2="0" width="3185" height="1707" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -196,7 +196,7 @@
               <point x="4415" y="3572" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="4922" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="3105" height="1218" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4115" top="4922" logicalid="26" controlid="13" masterid="0" hint1="0" hint2="0" width="3105" height="1218" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -255,107 +255,107 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="13d1684a-859c-4058-bb5e-715e08957517">
+    <Dimension dwd:design-time-name="5faf302a-b1e8-4233-8c95-b15b52f4f8ca">
       <ID>Whs Report User</ID>
       <Name>Сотрудники</Name>
       <DimensionID>Whs Report User</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8b8d3e81-8596-41b1-baa5-345912efac82">
+        <Attribute dwd:design-time-name="d4efff57-15f7-47eb-8be6-c026d33a0165">
           <AttributeID>Application User Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="20c22337-56fa-40d9-b116-c9ce6e004ae0">
+    <Dimension dwd:design-time-name="e3e8e035-fb8f-46a9-89ea-47a18d82f3e0">
       <ID>Whs Report Склад</ID>
       <Name>Склады</Name>
       <DimensionID>Whs Report Склад</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8f75ec10-8fcc-4244-b9b5-be007cb3c30c">
+        <Attribute dwd:design-time-name="754a172f-8024-4417-9a3f-22e4fc91f264">
           <AttributeID>Склад Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="81ac0b39-d2c3-4a1c-80cf-6698f8a77d4f">
+    <Dimension dwd:design-time-name="e20c4896-eaa9-4cd7-ae51-5f11bbd3e424">
       <ID>Whs Report Orders</ID>
       <Name>Ордера</Name>
       <DimensionID>Whs Report Orders</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="c30d519a-10f5-49c5-91a7-053687c62880">
+        <Attribute dwd:design-time-name="b810c09f-b00c-406d-a276-288cf5111b93">
           <AttributeID>Документ Id</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="8b99de84-4d84-43fc-8062-d42bd833eebd">
+    <Dimension dwd:design-time-name="c4eeb3a9-e10b-4729-8568-038d53d855c5">
       <ID>Whs Report Тип Операции</ID>
       <Name>Тип Операции</Name>
       <DimensionID>Whs Report Тип Операции</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="838e6869-7014-45c8-a33e-624b648cb688">
+        <Attribute dwd:design-time-name="fbea1b92-cdca-4ff7-bad6-94e180b40bbf">
           <AttributeID>Тип Операции</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="66f03d2a-c785-4544-ad8a-8af940c24077">
+    <Dimension dwd:design-time-name="e8bab2f0-7402-4a3a-bab7-b2387402d32a">
       <ID>Whs Report Тип Очереди</ID>
       <Name>Тип Очереди</Name>
       <DimensionID>Whs Report Тип Очереди</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="179630b3-f693-40dc-9a42-f8c9ed77013c">
+        <Attribute dwd:design-time-name="7df6814b-4f48-4a73-bb42-c7ec28296030">
           <AttributeID>Тип Очереди</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="ad435ab3-5463-47f3-b9d4-c92bb558aa37">
+    <Dimension dwd:design-time-name="7eaf810c-4c0e-49a0-9fc8-aa0dd62fbe42">
       <ID>Календарь</ID>
       <Name>Календарь</Name>
       <DimensionID>Календарь</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="612c4f4a-0514-4b27-bf3c-224480f75076">
+        <Attribute dwd:design-time-name="7f1d3122-2484-4444-ab0d-183cdab7b7b9">
           <AttributeID>Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7d229b21-3e4b-492d-8f8b-10e715fa373f">
+        <Attribute dwd:design-time-name="bc72a8f3-df70-4672-9a9e-2d352268ec61">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2da47b5a-79fc-4761-b809-b532bfdf2c83">
+        <Attribute dwd:design-time-name="11f090a3-3f9a-4608-876c-ae6968981ff1">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="222e6f0c-9333-4da4-b0c7-a290a86c820e">
+        <Attribute dwd:design-time-name="b9c57e18-6fe9-4ac2-b7a3-f2dd542e5bc5">
           <AttributeID>Month Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f4cc8656-d7d5-4dba-8b00-39371d29cf41">
+        <Attribute dwd:design-time-name="784fd4f9-c54a-4408-bb82-f6dd13a006cf">
           <AttributeID>Day</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="38ae2509-01fc-4825-bf3f-3054195dc905">
+        <Attribute dwd:design-time-name="7159fe4f-20c8-4bd3-97a0-03f9250d44bb">
           <AttributeID>Week</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bb68c8b9-e22e-4542-a9ae-3dd70fab16fa">
+        <Attribute dwd:design-time-name="a77e29da-e9b7-4c41-8d8d-9266cb1184ea">
           <AttributeID>Weekday</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e4a566aa-fd45-495a-8d16-8f6d06b86e17">
+        <Attribute dwd:design-time-name="a1ccf876-8f34-4f44-81ba-990672430be4">
           <AttributeID>Weekday 1</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="ba9f20de-1dc4-4df6-a8a0-0eb6f11a7f36">
+        <Hierarchy dwd:design-time-name="51bbdda2-1428-435a-a534-73fb08df8deb">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="878a2a8d-e3b3-4991-be59-99ceb48c8e56">
+        <Hierarchy dwd:design-time-name="c790ac29-be45-469f-9176-e706e5e5b04c">
           <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="8caab7b1-b09b-4395-896c-7ab2447680a0">
+        <Hierarchy dwd:design-time-name="d855bfc6-dc71-400c-8353-cbe6c2004fa3">
           <HierarchyID>Hierarchy 2</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="c82f1421-33fd-4ebc-b960-0963b06d3d1c">
+        <Hierarchy dwd:design-time-name="01085ba5-83bf-4cc3-972f-886e49439973">
           <HierarchyID>Hierarchy 3</HierarchyID>
         </Hierarchy>
-        <Hierarchy dwd:design-time-name="afe6516e-841e-430e-ba24-faea0f1161c4">
+        <Hierarchy dwd:design-time-name="5f7559f6-b31d-488e-be8a-d7f719694c0b">
           <HierarchyID>Hierarchy 4</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="1c7ce8a2-15a5-4086-96ec-78911e6e466e">
+    <MeasureGroup dwd:design-time-name="bce8d14b-1ecb-4240-a063-9703521268a8">
       <ID>v Whs Report</ID>
       <Name>v Whs Report</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -363,49 +363,49 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="9515e0a3-83c6-43ae-a560-ba5bc0fc7861">
+        <Measure dwd:design-time-name="bffd9514-fc71-474a-9758-cddc2997b0eb">
           <ID>Количество Строк</ID>
           <Name>Количество Строк</Name>
-          <Source dwd:design-time-name="178ed021-e4be-4ed0-9a4d-2cd45d763a0a">
+          <Source dwd:design-time-name="ab6e49f4-83a8-4f8a-89a0-9cae0cd6ddad">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="6f319798-c4ff-45ae-901e-3b8added3ea4">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8274e235-665e-4821-9af7-920380d0749d">
               <TableID>dbo_v_WhsReport</TableID>
               <ColumnID>КоличествоСтрок</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="016e2874-73cb-4439-bced-37984b236c29">
+        <Measure dwd:design-time-name="06cac8bd-d8d9-4433-a102-e1bd581efd08">
           <ID>Вес</ID>
           <Name>Вес</Name>
-          <Source dwd:design-time-name="26feaf6a-51c7-4ac0-978d-ba83f25366e6">
+          <Source dwd:design-time-name="06038a4e-12d8-4a66-ba08-bba6438b63ac">
             <DataType>Single</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3ccba75-4d2b-4078-9dfc-e81d2329ad99">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f812567-5a29-4d1b-a31a-50ac12b43e9f">
               <TableID>dbo_v_WhsReport</TableID>
               <ColumnID>Вес</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.00;-#,##0.00</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="6e9fa370-ed85-4d96-8be1-8365717c916e">
+        <Measure dwd:design-time-name="416b61c2-bef7-4a6e-8208-c2feebf80b43">
           <ID>Длительность</ID>
           <Name>Длительность</Name>
-          <Source dwd:design-time-name="57dbd697-9490-4779-9f64-a5718e8163e1">
+          <Source dwd:design-time-name="df0fa704-2c74-4237-ab27-14469cf2ab4d">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d7ad2ea8-41d7-4f4b-99fb-3a7d56a47d01">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2f3b0575-48c4-42e2-af28-95473b217f26">
               <TableID>dbo_v_WhsReport</TableID>
               <ColumnID>Длительность</ColumnID>
             </Source>
           </Source>
           <FormatString>#,##0.00;-#,##0.00</FormatString>
         </Measure>
-        <Measure dwd:design-time-name="8c1222de-951e-484e-8fe1-bd589d30bf6f">
+        <Measure dwd:design-time-name="705e6883-03d7-49cd-b70e-16c90d93d813">
           <ID>v Whs Report Count</ID>
           <Name>v Whs Report Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="da7573bd-cf6c-4e1c-8a0b-45df9588b8e4">
+          <Source dwd:design-time-name="4288bf53-76a3-4302-b791-2f811a8ea4dd">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d7370f92-8469-4a62-a08f-597b6c8e1887">
+            <Source xsi:type="RowBinding" dwd:design-time-name="2630264c-2211-43be-ab3f-f27657341224">
               <TableID>dbo_v_WhsReport</TableID>
             </Source>
           </Source>
@@ -415,17 +415,17 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7384650c-a97b-4c9f-b6e1-6422125da3c2">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f1af6831-597e-46bf-9c1c-f7c6734c171b">
           <CubeDimensionID>Whs Report User</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9228bd40-a48f-423b-8943-9971d2b82598">
+            <Attribute dwd:design-time-name="ae39c77b-c45c-41a9-a547-60c53a877efa">
               <AttributeID>Application User Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f501b135-4881-453f-9010-1cda7f9ca689">
+                <KeyColumn dwd:design-time-name="54d29383-3f61-4aaf-94b0-121ec7e27ec8">
                   <DataType>WChar</DataType>
                   <DataSize>1024</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d4f02eb4-192b-4f70-9c98-6cf445444ec7">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8a22199-085e-4a74-b75d-331793e7f4ae">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>ApplicationUserId</ColumnID>
                   </Source>
@@ -435,17 +435,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f005795e-6cf5-4fcc-aa24-cc8f36ceb546">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="398a855e-dc97-44a2-88bf-b4bc4df58fea">
           <CubeDimensionID>Whs Report Склад</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5a9a9fd7-c613-4eca-89db-97327a4e790a">
+            <Attribute dwd:design-time-name="ffc47e38-6257-445c-8b84-d10ecf219bb4">
               <AttributeID>Склад Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ee694455-21a4-4523-a36a-0e217e878778">
+                <KeyColumn dwd:design-time-name="03b036c9-5c0b-4018-9197-a2d7653cde12">
                   <DataType>WChar</DataType>
                   <DataSize>1024</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f1eb661e-ffac-4ce3-b311-aa1fc4e3956f">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a553bcd-3473-4968-816b-2a9e4658df23">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>Склад_Id</ColumnID>
                   </Source>
@@ -455,16 +455,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cf543c45-68f9-4a0a-a28a-6ac85be25c25">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dfd1025e-486d-401a-a5c6-48e48547d1d9">
           <CubeDimensionID>Whs Report Orders</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="5b7b9f90-4290-418b-b38c-be3155d3e5a0">
+            <Attribute dwd:design-time-name="de1d3852-62f1-42cf-a466-52f0d495876c">
               <AttributeID>Документ Id</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="368da031-6b80-4a76-b23f-31a0e5df151d">
+                <KeyColumn dwd:design-time-name="4435ed4e-11c2-458e-83a8-1eed72b6e752">
                   <DataType>WChar</DataType>
                   <DataSize>450</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2588587b-4e3f-4f02-9dfe-752e06607cd3">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="98036204-6b48-4382-a570-d280303fe80b">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>Документ_Id</ColumnID>
                   </Source>
@@ -474,16 +474,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2f02a810-9c40-4683-96ec-58cf8aaaf7f1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3d75df46-96e4-46df-b299-55ed64f6f66c">
           <CubeDimensionID>Календарь</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dd3b5488-6eef-4a6c-90b8-14cd1b1ef9ce">
+            <Attribute dwd:design-time-name="7a5465be-8c45-4740-9c2a-f151e90c32ab">
               <AttributeID>Date</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a1761d17-83ab-4613-beae-6f35cc8e8b09">
+                <KeyColumn dwd:design-time-name="cf70b180-2fd8-48d5-8de7-0862aae00f30">
                   <DataType>WChar</DataType>
                   <DataSize>10</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="12403c70-bf31-4e8a-845e-cea4ce629da2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d28d4a9f-36b7-4335-bd15-18f9e2600e45">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>Дата</ColumnID>
                   </Source>
@@ -493,16 +493,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4b9c448a-afd2-4760-9957-5b5b6cdc0900">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3895e385-a0e5-42f8-9795-604936c8ab5c">
           <CubeDimensionID>Whs Report Тип Операции</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ecc50acb-cbf9-4ff3-a9a0-41617706c9c3">
+            <Attribute dwd:design-time-name="aa8e712f-4d80-4a8b-9488-f2818b4af357">
               <AttributeID>Тип Операции</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="1f7f8a28-3c51-4e50-b3d8-c507cfaa48b9">
+                <KeyColumn dwd:design-time-name="4919f917-dcfb-4434-9c8d-f353af408b57">
                   <DataType>WChar</DataType>
                   <DataSize>8</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7e3b2db3-2c56-4438-95de-3e7755b38a8b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4263b407-eff9-424a-a758-700f2a549e0c">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>ТипОперации</ColumnID>
                   </Source>
@@ -512,17 +512,17 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7008696b-00e0-43d7-b8a2-0f1d944ed113">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b2a7e01-5f6e-4148-8d6f-1af667d1ceaf">
           <CubeDimensionID>Whs Report Тип Очереди</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0c918bb5-dffd-40dd-9f6e-b8b15ceee90a">
+            <Attribute dwd:design-time-name="7f5a718c-9855-4447-899c-82ade5d5b934">
               <AttributeID>Тип Очереди</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="76e8da4d-0d26-42a7-91f4-dcb27f0fa424">
+                <KeyColumn dwd:design-time-name="063acf3d-402e-410c-8f47-c22cdd819621">
                   <DataType>WChar</DataType>
                   <DataSize>1024</DataSize>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f51dbedb-b4ae-4b35-8ef2-3d7eca77bfa2">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3391a481-2bc5-4189-8950-258c8d9ca90d">
                     <TableID>dbo_v_WhsReport</TableID>
                     <ColumnID>ТипОчереди</ColumnID>
                   </Source>
@@ -536,7 +536,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="85025302-a2f2-4441-be7e-1e382bccdb33">
+  <Source dwd:design-time-name="502b648e-9e84-40b8-bd66-865475a9a55b">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
 </Cube>

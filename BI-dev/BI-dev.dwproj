@@ -278,12 +278,22 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Whs Report.cube</Name>
-      <FullPath>Whs Report.cube</FullPath>
+      <Name>Отчет по Складским очередям.cube</Name>
+      <FullPath>Отчет по Складским очередям.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Whs Report.partitions</Name>
-          <FullPath>Whs Report.partitions</FullPath>
+          <Name>Отчет по Складским очередям.partitions</Name>
+          <FullPath>Отчет по Складским очередям.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Выручка И Себестоимость Продаж - Тэги Партнеров.cube</Name>
+      <FullPath>Выручка И Себестоимость Продаж - Тэги Партнеров.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Выручка И Себестоимость Продаж - Тэги Партнеров.partitions</Name>
+          <FullPath>Выручка И Себестоимость Продаж - Тэги Партнеров.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -504,6 +514,10 @@
     <ProjectItem>
       <Name>Whs Report Тип Очереди.dim</Name>
       <FullPath>Whs Report Тип Очереди.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Тэги Партнеров 2025.dim</Name>
+      <FullPath>Тэги Партнеров 2025.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
