@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9219" scrolltop="363" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="29157" y="17304" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-9219" scrolltop="363" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="26617" y="14393" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -583,25 +583,124 @@ If the CALCULATE command is deleted or modified, the data within the cube is aff
 You should edit this command only if you manually specify how the cube is aggregated.
 */
 CALCULATE;     
-CREATE MEMBER CURRENTCUBE.[Measures].[Средний запас за 30 дней]
+CREATE MEMBER CURRENTCUBE.[Measures].[Средний запас - дни]
  AS AVG(
-   LASTPERIODS(30, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+   LASTPERIODS(90, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
    [Measures].[Остатки на конец - Вес] ), 
-FORMAT_STRING = "#,##0;-#,##0", 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 0; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Средний запас - месяцы]
+ AS AVG(
+   LASTPERIODS(3, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+   [Measures].[Остатки на конец - Вес] ), 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 0; 
+CREATE MEMBER CURRENTCUBE.[Measures].[Средний запас - годы]
+ AS AVG(
+   LASTPERIODS(1, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+   [Measures].[Остатки на конец - Вес] ), 
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 0; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Средний запас] AS
+    CASE
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL &lt;= 1
+            THEN [Measures].[Средний запас - годы]
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL  = 2
+            THEN [Measures].[Средний запас - месяцы]
+        ELSE [Measures].[Средний запас - дни] 
+    END,
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
 VISIBLE = 1; 
-CREATE MEMBER CURRENTCUBE.[Measures].[Скользящее среднее продаж за 90 дней, кг]
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Скользящее среднее продаж - дни, кг]
  AS AVG(
    LASTPERIODS(90, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
    [Measures].[Выручка - Вес]), 
-FORMAT_STRING = "#,##0;-#,##0",  
-VISIBLE = 1  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость]
- AS ([Measures].[Средний запас за 30 дней] * 30) / 
-    SUM(
-        LASTPERIODS(30, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
-        [Measures].[Выручка - Вес]), 
-FORMAT_STRING = "#,##0;-#,##0",  
-VISIBLE = 1  ; </Text>
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ;
+CREATE MEMBER CURRENTCUBE.[Measures].[Скользящее среднее продаж - месяцы, кг]
+ AS AVG(
+   LASTPERIODS(3, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+   [Measures].[Выручка - Вес]), 
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ;
+CREATE MEMBER CURRENTCUBE.[Measures].[Скользящее среднее продаж - годы, кг]
+ AS AVG(
+   LASTPERIODS(1, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+   [Measures].[Выручка - Вес]), 
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Скользящее среднее] AS
+    CASE
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL &lt;= 1
+            THEN [Measures].[Скользящее среднее продаж - годы, кг]
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL  = 2
+            THEN [Measures].[Скользящее среднее продаж - месяцы, кг]
+        ELSE [Measures].[Скользящее среднее продаж - дни, кг] 
+    END,
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость - дни]
+ AS IIF(
+        SUM(
+            LASTPERIODS(30, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+            [Measures].[Выручка - Вес]) &gt; 0,
+            ([Measures].[Средний запас] * 30) / 
+                SUM(
+                    LASTPERIODS(30, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+                    [Measures].[Выручка - Вес]), 
+            9999
+    ),
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ;
+CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость - месяцы]
+ AS IIF(
+        SUM(
+            LASTPERIODS(3, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+            [Measures].[Выручка - Вес]) &gt; 0,
+            ([Measures].[Средний запас] * 3) / 
+                SUM(
+                    LASTPERIODS(3, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+                    [Measures].[Выручка - Вес]), 
+            9999
+    ),
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ;
+CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость - годы]
+ AS IIF(
+        SUM(
+            LASTPERIODS(1, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+            [Measures].[Выручка - Вес]) &gt; 0,
+            ([Measures].[Средний запас] * 2) / 
+                SUM(
+                    LASTPERIODS(1, [Календарь].[Г-ММ-Д].CURRENTMEMBER),  
+                    [Measures].[Выручка - Вес]), 
+            9999
+    ), 
+FORMAT_STRING = "#,##0.00;-#,##0.00",  
+VISIBLE = 0  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость - служебная] AS
+    CASE
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL &lt;= 1
+            THEN [Measures].[Оборачиваемость - годы]
+        WHEN [Календарь].[Г-ММ-Д].CURRENTMEMBER.LEVEL.ORDINAL  = 2
+            THEN [Measures].[Оборачиваемость - месяцы]
+        ELSE [Measures].[Оборачиваемость - дни] 
+    END,
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 0; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Оборачиваемость] AS
+    IIF([Measures].[Оборачиваемость - служебная] &gt;= 9999 AND NOT [Measures].[Остатки на конец - Вес] &gt; 0,
+            NULL, 
+            [Measures].[Оборачиваемость - служебная]
+        ),
+FORMAT_STRING = "#,##0.00;-#,##0.00", 
+VISIBLE = 1;</Text>
         </Command>
       </Commands>
     </MdxScript>
