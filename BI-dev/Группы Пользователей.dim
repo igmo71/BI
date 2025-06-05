@@ -1,5 +1,5 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a516d8eb-8994-4309-9f88-ccae4db72f71" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Catalog Группы Пользователей Состав</ID>
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fcfd6506-868f-4390-a7d5-72f8b6bac052" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Группы Пользователей</ID>
   <Name>Группы Пользователей</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="8" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3551" scrolltop="-5848" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10927" y="14420" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3446" scrolltop="-7766" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11986" y="15610" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -19,20 +19,9 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Catalog_ГруппыПользователей_Состав" left="20" top="0" logicalid="4" controlid="1" masterid="0" hint1="0" hint2="0" width="3784" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Catalog_ГруппыПользователей" left="-1224" top="-4789" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5530" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000c80e0000a50a0000" />
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dbo_Catalog_ГруппыПользователей_Состав" vartype="8" />
-              </ddsxmlobj>
-            </layoutobject>
-            <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Catalog_ГруппыПользователей" left="-1323" top="-4577" logicalid="5" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00004d0c0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e00009a1500004d0c0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -40,26 +29,6 @@
               </ddsxmlobj>
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
-          </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="-222" top="-1927" logicalid="6" controlid="3" masterid="0" hint1="0" hint2="0" width="1884" height="2227" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[FK_dbo_Catalog_ГруппыПользователей_dbo_Catalog_ГруппыПользователей_Состав]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="177" y="-1428" />
-              <point x="177" y="-714" />
-              <point x="1362" y="-714" />
-              <point x="1362" y="0" />
-            </connector>
           </ddscontrol>
         </dds>
       </Value>
@@ -78,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3551</Value>
+      <Value>-3446</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5848</Value>
+      <Value>-7766</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-1323</Value>
+      <Value>-1224</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-4577</Value>
+      <Value>-4789</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -99,33 +68,65 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="aa2bb415-2b5b-45d5-8c68-83037d831c01">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="cc446d0b-776d-467c-a930-4ba2438214e3">
     <DataSourceViewID>WH-dev</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="d8eb8911-af07-45ec-85ce-68de2c5defb8">
+  <ErrorConfiguration dwd:design-time-name="e9ab384e-5be5-4e7b-b700-6383454a9ff5">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="e197bf3e-1a59-4ce7-b0be-36a0a68390d2">
+    <Attribute dwd:design-time-name="7064a07d-e732-4f26-8969-12f86117bb79">
       <ID>Ref Key</ID>
-      <Name>Группа Пользователей</Name>
+      <Name>Группы Пользователей Список</Name>
+      <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ecd57b7d-3f8a-4d51-b07f-6239cb789c83">
+        <KeyColumn dwd:design-time-name="4962afd7-e743-4381-86e0-91d144f795a0">
           <DataType>WChar</DataType>
           <DataSize>36</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="67101b67-4ef3-4828-bea0-eb4d2e81a9ea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56530a74-c942-4030-958d-e742fd095f7d">
             <TableID>dbo_Catalog_ГруппыПользователей</TableID>
             <ColumnID>Ref_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d9292d69-7feb-4293-bc27-f32a6fd7222f">
+      <NameColumn dwd:design-time-name="9a1d92b1-fdf0-4d87-9381-9788461907ac">
         <DataType>WChar</DataType>
         <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="9479acf2-8945-4c91-b9bd-8cf83834f26e">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="47fb2972-fb22-4561-a2ec-339b035d6bac">
+          <TableID>dbo_Catalog_ГруппыПользователей</TableID>
+          <ColumnID>Description</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3c48e951-e0db-4c3a-b061-ab9add680018">
+          <AttributeID>Parent Key</AttributeID>
+          <Name>Группы Пользователей</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="31961bb2-a388-47b1-bf46-052d257791e5">
+      <ID>Parent Key</ID>
+      <Name>Группы Пользователей</Name>
+      <Usage>Parent</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eec2f9f8-1a33-40d3-89ae-6d6683d7cdee">
+          <DataType>WChar</DataType>
+          <DataSize>36</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bbbdfb79-f65e-4198-97c0-93b6f2b337c5">
+            <TableID>dbo_Catalog_ГруппыПользователей</TableID>
+            <ColumnID>Parent_Key</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ba0cbaa9-e2e6-4f59-b16a-2583760cd288">
+        <DataType>WChar</DataType>
+        <DataSize>150</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="bafa8a07-6ec6-456c-a3e9-e687877f5492">
           <TableID>dbo_Catalog_ГруппыПользователей</TableID>
           <ColumnID>Description</ColumnID>
         </Source>
@@ -133,75 +134,6 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5590914d-58ab-4895-bfdf-b49b0433b0d4">
-      <ID>Пользователь Key</ID>
-      <Name>Пользователь</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="9f326fc0-19cb-4473-8c3e-3ba4bfdec4c0">
-          <DataType>WChar</DataType>
-          <DataSize>36</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0cdf1aed-703d-4190-92a3-bed58cfc6613">
-            <TableID>dbo_Catalog_ГруппыПользователей_Состав</TableID>
-            <ColumnID>Пользователь_Key</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="48f4f813-4f11-4e7b-8d39-3c45a082e03f">
-        <DataType>WChar</DataType>
-        <DataSize>150</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="357706c5-67a9-467e-a594-f633d50ed1b2">
-          <TableID>dbo_v_Пользователи</TableID>
-          <ColumnID>Description</ColumnID>
-        </Source>
-      </NameColumn>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="894d5b54-5032-456c-b8ae-f3ab2539476a">
-      <ID>Id</ID>
-      <Name>Id</Name>
-      <Usage>Key</Usage>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="37b544a9-2a5d-4341-9cab-3c85dc7e49e5">
-          <DataType>WChar</DataType>
-          <DataSize>49</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="792db222-eacb-4644-9f6e-88094d3590a3">
-            <TableID>dbo_Catalog_ГруппыПользователей_Состав</TableID>
-            <ColumnID>Id</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="00b06442-c9bd-486a-90ea-297c735d270d">
-          <AttributeID>Ref Key</AttributeID>
-          <Name>Группа Пользователей</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3ad4b41a-ddd7-4bf9-8bf5-69065506142a">
-          <AttributeID>Пользователь Key</AttributeID>
-          <Name>Пользователь</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
   </Attributes>
-  <Hierarchies>
-    <Hierarchy dwd:design-time-name="a895813f-7a83-409f-9155-d33d3bc244af">
-      <ID>Hierarchy</ID>
-      <Name>Группа - Пользователей</Name>
-      <Levels>
-        <Level dwd:design-time-name="cf1acdbd-fe94-42d5-816e-1fbdec065d7d">
-          <ID>Группа Пользователей</ID>
-          <Name>Группа Пользователей</Name>
-          <SourceAttributeID>Ref Key</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="d6343122-01cc-464a-91de-7ecae4059431">
-          <ID>Пользователь</ID>
-          <Name>Пользователь</Name>
-          <SourceAttributeID>Пользователь Key</SourceAttributeID>
-        </Level>
-      </Levels>
-    </Hierarchy>
-  </Hierarchies>
   <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
 </Dimension>

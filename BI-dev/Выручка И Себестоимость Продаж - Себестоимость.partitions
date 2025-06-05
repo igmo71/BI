@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a224c867-8a18-4392-a042-53efa2699d1c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="90a44de6-22d3-43e1-8cfb-ab152f1b449e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Выручка И Себестоимость Продаж - Себестоимость</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>v Выручка И Себестоимость Продаж Цены Закупочные</ID>
       <Partitions>
-        <Partition dwd:design-time-name="be7475bb-eeee-4a14-91e0-e845c6d96094">
+        <Partition dwd:design-time-name="9325d388-2b9f-4f0e-a11d-07df69ca6ea8">
           <ID>v Выручка И Себестоимость Продаж Цены Закупочные</ID>
           <Name>v Выручка И Себестоимость Продаж Цены Закупочные</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a4fcacfa-c116-4b6b-b920-b2dea8cde981">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d1c1d06d-a1ef-4acc-9411-13a6ce4eee4d">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_v_ВыручкаИСебестоимостьПродаж_ЦеныЗакупочные</TableID>
           </Source>
@@ -24,14 +24,14 @@
     <MeasureGroup>
       <ID>Catalog Партнеры Виды Деятельности</ID>
       <Partitions>
-        <Partition dwd:design-time-name="7186bae5-ab3c-4d85-b33f-b6ff02b4a9bc">
+        <Partition dwd:design-time-name="d440954e-6290-46ac-9fa1-f23aedeb119b">
           <ID>Catalog Партнеры Виды Деятельности</ID>
           <Name>Catalog Партнеры Виды Деятельности</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b4461cae-d11e-4245-9ae7-bc5db55af139">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a0bfbb48-9bd8-46ff-800d-850b1249f9bf">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
           </Source>
@@ -44,14 +44,14 @@
     <MeasureGroup>
       <ID>Currency Rates</ID>
       <Partitions>
-        <Partition dwd:design-time-name="f5c3a5ed-6ad5-4740-8491-6dc37139347d">
+        <Partition dwd:design-time-name="41226c98-3792-434c-b490-60d25ab80f4b">
           <ID>Currency Rates</ID>
           <Name>Currency Rates</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6a051536-b464-4b6a-91d0-50ac92fd5905">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f17b5743-ddc0-47a0-adf1-c86444e71bf5">
             <DataSourceViewID>WH-dev</DataSourceViewID>
             <TableID>dbo_CurrencyRates</TableID>
           </Source>
