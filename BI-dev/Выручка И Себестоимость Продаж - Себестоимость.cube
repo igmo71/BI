@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="82" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15706" scrolltop="-4471" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="29051" y="15610" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="82" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15706" scrolltop="-8139" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="28363" y="15610" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -668,7 +668,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-4471</Value>
+      <Value>-8139</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -880,27 +880,6 @@
           <AttributeID>Parent Key</AttributeID>
         </Attribute>
       </Attributes>
-    </Dimension>
-    <Dimension dwd:design-time-name="e70d86d4-60e8-4a30-8749-4ff861eddb58">
-      <ID>Партнеры - Виды Деятельности</ID>
-      <Name>Партнеры - Виды Деятельности</Name>
-      <DimensionID>Партнеры - Виды Деятельности</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="58440050-5f66-423f-8a80-e7b5f18e907c">
-          <AttributeID>Id</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="7c22c9f1-e9b9-48d7-bbdf-28ffdf18a6d6">
-          <AttributeID>Ref Key</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="dca5d163-ab0b-4fbe-bd45-fbaa0181b667">
-          <AttributeID>Вид Деятельности Key</AttributeID>
-        </Attribute>
-      </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="275dc7e0-a655-435d-b3f6-ad5acac6d7b8">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="4df62936-9635-47db-a6ec-1df58f9cb27e">
       <ID>Вид Деятельности</ID>
@@ -1254,10 +1233,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="08ff455a-f3f1-445a-8dff-0e3129878ede">
-          <CubeDimensionID>Партнеры - Виды Деятельности</CubeDimensionID>
-          <MeasureGroupID>Catalog Партнеры Виды Деятельности</MeasureGroupID>
-        </Dimension>
         <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="3ead4a27-2b7a-4380-8c35-c9681549045e">
           <CubeDimensionID>Вид Деятельности</CubeDimensionID>
           <MeasureGroupID>Catalog Партнеры Виды Деятельности</MeasureGroupID>
@@ -1303,6 +1278,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="98a56f7b-387c-4224-88f1-b3404a95641f">
       <ID>Catalog Партнеры Виды Деятельности</ID>
@@ -1328,25 +1304,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1e930518-dfe6-4535-9ede-a3b34dfec640">
-          <CubeDimensionID>Партнеры - Виды Деятельности</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="41281458-bfd1-4fa1-b0ee-f3cd5f67ea1e">
-              <AttributeID>Id</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="8d13ebf9-b2a6-4f24-bde1-ea4258a13d96">
-                  <DataType>WChar</DataType>
-                  <DataSize>49</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8afd01d7-b24c-4a65-a438-9533944365da">
-                    <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
-                    <ColumnID>Id</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7ccf801a-cce8-48cf-bb4d-1f9040129532">
           <CubeDimensionID>Вид Деятельности</CubeDimensionID>
           <Attributes>
@@ -1387,6 +1344,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
     <MeasureGroup dwd:design-time-name="97389c9c-adff-4349-a731-2012abde2856">
       <ID>Currency Rates</ID>
@@ -1444,6 +1402,7 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="838e9600-f1d5-4320-ab49-443f91f8d450">
