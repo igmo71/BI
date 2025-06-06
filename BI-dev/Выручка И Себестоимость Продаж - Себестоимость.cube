@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="84" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15706" scrolltop="-11631" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="30983" y="15610" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="85" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-15706" scrolltop="-4471" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="27993" y="16642" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -233,8 +233,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="8" sourceattachpoint="29" destattachpoint="40" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="-4112" y="10787" />
-              <point x="-2892" y="10787" />
-              <point x="-2892" y="5899" />
+              <point x="-2715" y="10787" />
+              <point x="-2715" y="5899" />
               <point x="-1671" y="5899" />
             </connector>
           </ddscontrol>
@@ -499,8 +499,8 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="30" destid="8" sourceattachpoint="21" destattachpoint="36" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="-4040" y="6928" />
-              <point x="-2856" y="6928" />
-              <point x="-2856" y="4799" />
+              <point x="-3138" y="6928" />
+              <point x="-3138" y="4799" />
               <point x="-1671" y="4799" />
             </connector>
           </ddscontrol>
@@ -647,26 +647,6 @@
               <point x="13390" y="-2421" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="2994" top="-2721" logicalid="82" controlid="41" masterid="0" hint1="0" hint2="0" width="3500" height="3520" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-            <control>
-              <ddsxmlobj>
-                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-              </ddsxmlobj>
-            </control>
-            <layoutobject>
-              <ddsxmlobj>
-                <property name="LogicalObject" value="dataSet.Relations[Catalog_ГруппыПользователей_Состав-v_ВыручкаИСебестоимостьПродаж_ЦеныЗакупочные]" vartype="8" />
-                <property name="Virtual" value="0" vartype="11" />
-                <property name="VisibleAP" value="0" vartype="3" />
-              </ddsxmlobj>
-            </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="38" sourceattachpoint="21" destattachpoint="34" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="3294" y="399" />
-              <point x="4744" y="399" />
-              <point x="4744" y="-2421" />
-              <point x="6194" y="-2421" />
-            </connector>
-          </ddscontrol>
         </dds>
       </Value>
     </Annotation>
@@ -688,7 +668,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-11631</Value>
+      <Value>-4471</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -1349,25 +1329,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fbb358fe-9d3d-4657-bbb8-3b09c394c8b1">
-          <CubeDimensionID>Партнеры</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="a14b6e2d-d854-4bdd-b0db-896fe5376888">
-              <AttributeID>Ref Key</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="4b77ef73-a795-42b5-ad12-882816fe5a88">
-                  <DataType>WChar</DataType>
-                  <DataSize>36</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f8a3aa2-34c8-401c-b1a4-144244ce8a74">
-                    <TableID>dbo_Catalog_Партнеры_ВидыДеятельности</TableID>
-                    <ColumnID>Ref_Key</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="331161dc-f5da-4235-8d17-8fb274c3eddd">
           <CubeDimensionID>Партнеры - Виды Деятельности</CubeDimensionID>
           <Attributes>
